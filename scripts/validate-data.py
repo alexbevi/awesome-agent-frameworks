@@ -17,6 +17,7 @@ ENTRY_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 ALLOWED_TOP_LEVEL_KEYS = {"categories", "frameworks", "related_lists"}
 ALLOWED_CATEGORY_KEYS = {"name", "description"}
 ALLOWED_FRAMEWORK_KEYS = {"name", "category", "url", "repo", "description"}
+OPTIONAL_FRAMEWORK_KEYS = {"repo"}
 ALLOWED_RELATED_KEYS = {"name", "url", "description"}
 FORBIDDEN_DESCRIPTION_TERMS = (
     "awesome",
@@ -80,9 +81,16 @@ def require_string(item: dict[str, Any], key: str, context: str, errors: list[st
     return value.strip()
 
 
-def validate_keys(item: dict[str, Any], allowed: set[str], context: str, errors: list[str]) -> None:
+def validate_keys(
+    item: dict[str, Any],
+    allowed: set[str],
+    context: str,
+    errors: list[str],
+    optional: set[str] | None = None,
+) -> None:
+    optional = optional or set()
     extra = set(item) - allowed
-    missing = allowed - set(item)
+    missing = allowed - optional - set(item)
     for key in sorted(missing):
         errors.append(f"{context}: missing required key {key!r}")
     for key in sorted(extra):
@@ -150,21 +158,26 @@ def validate_data(data: dict[str, Any]) -> tuple[list[dict[str, str]], list[dict
         if not isinstance(raw, dict):
             errors.append(f"{context}: must be an object")
             continue
-        validate_keys(raw, ALLOWED_FRAMEWORK_KEYS, context, errors)
+        validate_keys(raw, ALLOWED_FRAMEWORK_KEYS, context, errors, OPTIONAL_FRAMEWORK_KEYS)
         name = require_string(raw, "name", context, errors)
         category = require_string(raw, "category", context, errors)
         url = require_string(raw, "url", context, errors)
-        repo = require_string(raw, "repo", context, errors)
+        repo = ""
+        if "repo" in raw:
+            repo = require_string(raw, "repo", context, errors)
         description = require_string(raw, "description", context, errors)
         validate_sentence(description, f"{context}.description", errors)
         if category and category not in category_names:
             errors.append(f"{context}.category: unknown category {category!r}")
         if repo and not ENTRY_RE.match(repo):
             errors.append(f"{context}.repo: must be owner/repo")
-        if url and not url.startswith("https://github.com/"):
-            errors.append(f"{context}.url: must be a GitHub URL")
-        if url and repo and url.rstrip("/").lower() != f"https://github.com/{repo}".lower():
-            errors.append(f"{context}.url: must match repo field")
+        if url and not url.startswith("https://"):
+            errors.append(f"{context}.url: must be an HTTPS URL")
+        if repo:
+            if url and not url.startswith("https://github.com/"):
+                errors.append(f"{context}.url: must be a GitHub URL when repo is present")
+            if url and url.rstrip("/").lower() != f"https://github.com/{repo}".lower():
+                errors.append(f"{context}.url: must match repo field")
         if name:
             name_counts[sort_key(name)] += 1
         if repo:
@@ -243,7 +256,7 @@ def check_readme(repo_root: Path) -> None:
 
 def check_github_repos(frameworks: list[dict[str, str]]) -> None:
     errors: list[str] = []
-    repos = [item["repo"] for item in frameworks]
+    repos = [item["repo"] for item in frameworks if item.get("repo")]
     for offset in range(0, len(repos), 50):
         batch = repos[offset : offset + 50]
         fields: list[str] = []

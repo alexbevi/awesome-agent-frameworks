@@ -73,7 +73,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/agent0ai/agent-zero",
       "repo": "agent0ai/agent-zero",
-      "description": "Designed as a personal AI assistant that orchestrates other agents, uses tools, executes code, and builds dynamic memory."
+      "description": "Open, dynamic agent framework packaged as a Dockerized Linux system with a desktop, tool use, code execution, memory, and an extensible skill hub."
     },
     {
       "name": "AgentDock",
@@ -94,14 +94,14 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/AgentEra/Agently",
       "repo": "AgentEra/Agently",
-      "description": "Structured data chaining, multi-LLM support."
+      "description": "AI application runtime for structured outputs, observable actions, runtime skills, MCP capabilities, process streams, and recoverable workflows."
     },
     {
       "name": "AgentScope",
       "category": "Agent SDK / framework",
       "url": "https://github.com/agentscope-ai/agentscope",
       "repo": "agentscope-ai/agentscope",
-      "description": "Full-featured multi-agent framework from Alibaba DAMO Academy."
+      "description": "Production-ready agent framework with an event bus, human-in-the-loop hooks, permission controls, and multi-tenant session serving."
     },
     {
       "name": "AgentScope Java",
@@ -143,7 +143,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/yoheinakajima/babyagi",
       "repo": "yoheinakajima/babyagi",
-      "description": "BabyAGI is a framework or SDK for building agent applications."
+      "description": "Experimental self-building agent framework centered on a function database, dependency graph, secrets handling, and dashboard-managed execution."
     },
     {
       "name": "BeeAI Framework",
@@ -157,7 +157,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/SciSharp/BotSharp",
       "repo": "SciSharp/BotSharp",
-      "description": "BotSharp - AI multi-agent framework in .NET."
+      "description": "C#/.NET framework for building AI bot and agent applications with NLU, vision, audio processing, and controllable conversation pipelines."
     },
     {
       "name": "Boxcars",
@@ -199,14 +199,14 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/crewAIInc/crewAI",
       "repo": "crewAIInc/crewAI",
-      "description": "CrewAI is a framework or SDK for building agent applications."
+      "description": "Python framework for production multi-agent automation, combining role-based Crews with event-driven Flows for tighter workflow control."
     },
     {
       "name": "Crush",
       "category": "Agent SDK / framework",
       "url": "https://github.com/charmbracelet/crush",
       "repo": "charmbracelet/crush",
-      "description": "Crush - Glamourous agentic coding for all."
+      "description": "Terminal coding agent from Charmbracelet that connects local tools, code, workflows, and multiple LLM providers in a persistent session."
     },
     {
       "name": "Deep Agents",
@@ -227,7 +227,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/stanfordnlp/dspy",
       "repo": "stanfordnlp/dspy",
-      "description": "DSPy is a framework or SDK for building agent applications."
+      "description": "Framework for programming language models with modular components and optimizers for prompts and weights across RAG, agents, and classifiers."
     },
     {
       "name": "Eino",
@@ -248,7 +248,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/embabel/embabel-agent",
       "repo": "embabel/embabel-agent",
-      "description": "Embabel - Agent framework for the JVM."
+      "description": "JVM agent framework for authoring goal-directed flows that mix LLM prompts, code, domain models, and intelligent path finding."
     },
     {
       "name": "EvoAgentX",
@@ -269,7 +269,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/antoinezambelli/forge",
       "repo": "antoinezambelli/forge",
-      "description": "Forge is a framework or SDK for building agent applications."
+      "description": "Python reliability layer for self-hosted LLM tool-calling loops with optional workflow structure, retries, validation, and parsing recovery."
     },
     {
       "name": "GenAIScript",
@@ -311,7 +311,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/google/adk-js",
       "repo": "google/adk-js",
-      "description": "Google's Agent Development Kit for JavaScript/TypeScript - the official JS implementation of ADK."
+      "description": "Open-source TypeScript Agent Development Kit for building, evaluating, and deploying AI agents with Google's ADK abstractions."
     },
     {
       "name": "Google Agent Development Kit (ADK)",
@@ -346,7 +346,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/guidance-ai/guidance",
       "repo": "guidance-ai/guidance",
-      "description": "Guidance is a domain-specific language for controlling large language models - constrained decoding, guided generation, structured output, and tool invocation."
+      "description": "Pythonic programming interface for steering language models with constrained generation, structured outputs, tool use, loops, and conditionals."
     },
     {
       "name": "Instructor",
@@ -367,7 +367,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/microsoft/JARVIS",
       "repo": "microsoft/JARVIS",
-      "description": "Microsoft Research prototype (HuggingGPT) - LLM as controller, routes tasks to specialized Hugging Face models."
+      "description": "Microsoft Research system for connecting LLM controllers to specialist ML models and tools from the broader AI community."
     },
     {
       "name": "JoyAgent-JDGenie",
@@ -388,21 +388,21 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/langchain-ai/langchain",
       "repo": "langchain-ai/langchain",
-      "description": "The dominant LLM application framework."
+      "description": "Framework for building agents and LLM applications by composing interoperable components, integrations, tools, and model calls."
     },
     {
       "name": "LangChain Elixir",
       "category": "Agent SDK / framework",
       "url": "https://github.com/brainlid/langchain",
       "repo": "brainlid/langchain",
-      "description": "LangChain Elixir - Elixir implementation of a LangChain-style framework that lets Elixir projects integrate with and leverage LLMs."
+      "description": "Elixir library for integrating AI services and self-hosted models into applications using LangChain-style chat, tool, and model abstractions."
     },
     {
       "name": "LangChain Go",
       "category": "Agent SDK / framework",
       "url": "https://github.com/tmc/langchaingo",
       "repo": "tmc/langchaingo",
-      "description": "Community-maintained Go port of LangChain, implementing the core abstractions - chains, agents, tools, vector stores, memory - in idiomatic Go."
+      "description": "Go implementation of LangChain for composing LLM-powered applications with model, chain, tool, vector store, and memory abstractions."
     },
     {
       "name": "LangChain.js",
@@ -423,7 +423,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/langchain4j/langchain4j",
       "repo": "langchain4j/langchain4j",
-      "description": "The leading Java/Kotlin LLM integration library."
+      "description": "Idiomatic Java library for building JVM LLM applications with unified provider APIs, vector stores, RAG, tools, agents, and Spring or Quarkus integration."
     },
     {
       "name": "Langroid",
@@ -451,7 +451,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
       "repo": "Maximilian-Winter/llama-cpp-agent",
-      "description": "Llama-cpp-agent - Python framework designed for easy interaction with Large Language Models running on llama.cpp."
+      "description": "Unmaintained Python framework for llama.cpp-based chat, function calling, structured output, RAG, and tool-using agentic chains."
     },
     {
       "name": "LLPhant",
@@ -465,14 +465,14 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/jackmpcollins/magentic",
       "repo": "jackmpcollins/magentic",
-      "description": "Community Python library that uses decorators to seamlessly integrate LLMs as regular Python functions - including structured outputs, tool calls, and async support."
+      "description": "Python decorator library for turning prompts into typed functions with structured outputs, streaming, tool calls, and LLM-assisted retries."
     },
     {
       "name": "Marvin",
       "category": "Agent SDK / framework",
       "url": "https://github.com/PrefectHQ/marvin",
       "repo": "PrefectHQ/marvin",
-      "description": "Marvin is a framework or SDK for building agent applications."
+      "description": "Python framework for producing structured outputs and building observable agentic workflows with tasks delegated to LLMs."
     },
     {
       "name": "Mastra",
@@ -493,7 +493,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/microsoft/agent-framework",
       "repo": "microsoft/agent-framework",
-      "description": "Successor to AutoGen (microsoft/autogen, now deprecated - see migration guide)."
+      "description": "Microsoft framework for building, orchestrating, and deploying production AI agents and multi-agent workflows in .NET and Python."
     },
     {
       "name": "Mirascope",
@@ -514,7 +514,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/NVIDIA-NeMo/Guardrails",
       "repo": "NVIDIA-NeMo/Guardrails",
-      "description": "NeMo Guardrails - An open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems."
+      "description": "NVIDIA toolkit for adding programmable guardrails to LLM applications, including dialog paths, output controls, and structured extraction."
     },
     {
       "name": "Open Agents",
@@ -549,7 +549,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/Q00/ouroboros",
       "repo": "Q00/ouroboros",
-      "description": "TypeScript/Python project that lets developers define agent behavior via structured specifications rather than freeform prompts - integrates with claude-code, codex-cli, and MCP."
+      "description": "Local-first runtime for replayable, specification-driven AI coding workflows across Claude Code, Codex CLI, OpenCode, Gemini, and MCP."
     },
     {
       "name": "OWL (CAMEL-AI)",
@@ -605,7 +605,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/0xPlaygrounds/rig",
       "repo": "0xPlaygrounds/rig",
-      "description": "Rig - Rust framework for building modular and scalable LLM applications."
+      "description": "Rust framework for building modular LLM applications with provider integrations, embeddings, vector stores, tools, and agent abstractions."
     },
     {
       "name": "Rowboat",
@@ -647,14 +647,14 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/stakpak/agent",
       "repo": "stakpak/agent",
-      "description": "Stakpak Agent - open source agent that lives on your machines 24/7 and keeps your apps running (Ship your code, on autopilot)."
+      "description": "Open-source operations agent that runs on your machines, monitors applications, handles deployment work, and escalates when human input is needed."
     },
     {
       "name": "Strands Agents",
       "category": "Agent SDK / framework",
       "url": "https://github.com/strands-agents/harness-sdk",
       "repo": "strands-agents/harness-sdk",
-      "description": "Supports Amazon Bedrock, OpenAI, Anthropic, Ollama, and LiteLLM as model providers."
+      "description": "Python and TypeScript SDK for model-driven agents, from simple assistants to autonomous workflows across local and production environments."
     },
     {
       "name": "SuperAGI",
@@ -668,7 +668,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/TaskingAI/TaskingAI",
       "repo": "TaskingAI/TaskingAI",
-      "description": "TaskingAI - The open source platform for AI-native application development."
+      "description": "Backend-as-a-service platform for LLM agents with unified model APIs, tools, RAG modules, assistants, conversation history, and client SDKs."
     },
     {
       "name": "TradingAgents",
@@ -682,7 +682,7 @@
       "category": "Agent SDK / framework",
       "url": "https://github.com/TrafficGuard/typedai",
       "repo": "TrafficGuard/typedai",
-      "description": "TypedAI - TypeScript AI platform with AI chat, autonomous agents, software developer agents, chatbots and more."
+      "description": "TypeScript-first platform for autonomous agents and LLM workflows, including chat, function calling, observability, and coding-agent features."
     },
     {
       "name": "Upsonic",
@@ -710,14 +710,14 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/tursodatabase/agentfs",
       "repo": "tursodatabase/agentfs",
-      "description": "SDKs ship for TypeScript, Python, and Rust; a CLI mounts AgentFS via FUSE (Linux) or NFS (macOS)."
+      "description": "Agent filesystem with TypeScript, Python, and Rust SDKs plus a CLI that mounts shared agent state through FUSE on Linux or NFS on macOS."
     },
     {
       "name": "AIOS",
       "category": "Agent graph / runtime",
       "url": "https://github.com/agiresearch/AIOS",
       "repo": "agiresearch/AIOS",
-      "description": "AIOS - AI Agent Operating System."
+      "description": "Agent operating system kernel that manages LLM, memory, storage, tool, scheduling, and context-switching resources for agent applications."
     },
     {
       "name": "Astron Agent",
@@ -738,7 +738,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "repo": "Significant-Gravitas/AutoGPT",
-      "description": "The original autonomous agent harness."
+      "description": "Platform for creating, deploying, and managing continuous AI agents that automate complex workflows, with self-hosted and cloud options."
     },
     {
       "name": "AX (Agent Executor)",
@@ -808,7 +808,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/trycua/cua",
       "repo": "trycua/cua",
-      "description": "Open-source Computer-Use Agent infrastructure - sandboxes, SDKs, and benchmarks for agents that control macOS/Windows desktops."
+      "description": "Computer-use agent infrastructure with sandboxes, drivers, SDKs, and benchmarks for agents that control macOS, Linux, and Windows desktops."
     },
     {
       "name": "CubeSandbox",
@@ -850,7 +850,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/e2b-dev/E2B",
       "repo": "e2b-dev/E2B",
-      "description": "Cloud sandbox infrastructure for AI agents - provides secure isolated execution environments for AI-generated code."
+      "description": "Open-source cloud sandbox infrastructure for running AI-generated code in secure isolated environments through JavaScript and Python SDKs."
     },
     {
       "name": "Eve",
@@ -871,7 +871,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/hatchet-dev/hatchet",
       "repo": "hatchet-dev/hatchet",
-      "description": "Hatchet - Orchestration engine for background tasks, AI agents, and durable workflows."
+      "description": "Orchestration platform for background tasks, AI agents, and durable workflows with queues, retries, monitoring, alerting, and logs."
     },
     {
       "name": "HelixDB",
@@ -885,7 +885,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/holaboss-ai/holaOS",
       "repo": "holaboss-ai/holaOS",
-      "description": "Open agent computer desktop harness (Electron, TypeScript) for any digital work - bundles an agent runtime with memory, MCP tool integration, and proactive workflows."
+      "description": "Local-first desktop agent for work context, persistent memory, integrations, MCP tool use, and proactive workflows across daily applications."
     },
     {
       "name": "InsForge",
@@ -913,7 +913,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/memodb-io/memobase",
       "repo": "memodb-io/memobase",
-      "description": "Memobase is a user-profile-based long-term memory layer for LLM chatbots - virtual companions, education, personalized assistants."
+      "description": "User-profile memory system for LLM applications that stores long-term user context for companions, education tools, and personalized assistants."
     },
     {
       "name": "Microsoft Promptflow",
@@ -962,7 +962,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/volcengine/OpenViking",
       "repo": "volcengine/OpenViking",
-      "description": "OpenViking is a runtime or orchestration layer for agent applications."
+      "description": "Context database for AI agents that unifies user memory, agent memory, knowledge RAG, skills, and evaluation workflows."
     },
     {
       "name": "Pulumi",
@@ -990,7 +990,7 @@
       "category": "Agent graph / runtime",
       "url": "https://github.com/rush-db/rushdb",
       "repo": "rush-db/rushdb",
-      "description": "RushDB is a runtime or orchestration layer for agent applications."
+      "description": "Graph and vector database memory layer that turns JSON into typed, searchable, relationship-aware records without schema migrations."
     },
     {
       "name": "Skyvern",
@@ -1058,9 +1058,8 @@
     {
       "name": "Agno AgentOS",
       "category": "Agent platform / control plane",
-      "url": "https://github.com/agno-agi/agno",
-      "repo": "agno-agi/agno",
-      "description": "FastAPI runtime and control plane for serving agents, sessions, memory, traces, and approval workflows in your infrastructure."
+      "url": "https://www.agno.com/agentos",
+      "description": "Commercial control plane for deploying and operating Agno agents with sessions, memory, traces, monitoring, and human approval workflows."
     },
     {
       "name": "Helix",
@@ -1123,7 +1122,7 @@
       "category": "RAG / knowledge system",
       "url": "https://github.com/shcherbak-ai/contextgem",
       "repo": "shcherbak-ai/contextgem",
-      "description": "Positioned alongside Unstructured, MegaParse, and PageIndex in the document-processing/extraction layer."
+      "description": "Document extraction framework that turns natural-language extraction specs into structured data with source references and justifications."
     },
     {
       "name": "DeepWiki Open",
@@ -1305,7 +1304,7 @@
       "category": "Memory / context system",
       "url": "https://github.com/campfirein/byterover-cli",
       "repo": "campfirein/byterover-cli",
-      "description": "ByteRover CLI (brv) - portable memory layer for autonomous coding agents (formerly Cipher)."
+      "description": "CLI memory layer for coding agents that stores project knowledge in a context tree and syncs it across tools and teammates."
     },
     {
       "name": "Craft Agents",
@@ -1347,14 +1346,14 @@
       "category": "Memory / context system",
       "url": "https://github.com/Gentleman-Programming/engram",
       "repo": "Gentleman-Programming/engram",
-      "description": "Engram - persistent memory system for AI coding agents, agent-agnostic."
+      "description": "Agent-agnostic memory system for coding agents with a Go binary, SQLite and FTS5 storage, MCP server, HTTP API, CLI, and TUI."
     },
     {
       "name": "EverOS",
       "category": "Memory / context system",
       "url": "https://github.com/EverMind-AI/EverOS",
       "repo": "EverMind-AI/EverOS",
-      "description": "EverOS - memory-layer framework for building, evaluating, and integrating long-term memory for self-evolving agents."
+      "description": "Python library and local-first memory runtime that stores conversations, files, and agent trajectories as Markdown with SQLite and LanceDB indexes."
     },
     {
       "name": "FinRobot",
@@ -1452,7 +1451,7 @@
       "category": "Memory / context system",
       "url": "https://github.com/MemMachine/MemMachine",
       "repo": "MemMachine/MemMachine",
-      "description": "MemMachine - universal memory layer for AI agents, providing scalable, extensible, and interoperable memory storage and retrieval."
+      "description": "Long-term memory layer for AI agents and LLM applications with episodic graph memory, persistent recall, and interoperable storage."
     },
     {
       "name": "Memoir",
@@ -1473,7 +1472,7 @@
       "category": "Memory / context system",
       "url": "https://github.com/BAI-LAB/MemoryOS",
       "repo": "BAI-LAB/MemoryOS",
-      "description": "Architecture borrows from OS memory management: hierarchical short-term / mid-term / long-term persona memory with four core modules - Storage, Updating, Retrieval, Generation."
+      "description": "Memory operating system for personalized agents with hierarchical short-, mid-, and long-term memory plus storage, updating, retrieval, and generation modules."
     },
     {
       "name": "MemOS",
@@ -1515,14 +1514,14 @@
       "category": "Memory / context system",
       "url": "https://github.com/huggingface/ml-intern",
       "repo": "huggingface/ml-intern",
-      "description": "ML Intern - an open-source ML engineer agent from Hugging Face that reads papers, trains models, and ships ML models."
+      "description": "Hugging Face ML engineering agent that researches papers, writes and runs ML code, trains models, and ships results using Hub resources."
     },
     {
       "name": "OGX (formerly Llama Stack)",
       "category": "Memory / context system",
       "url": "https://github.com/ogx-ai/ogx",
       "repo": "ogx-ai/ogx",
-      "description": "OGX is the rebrand of Meta's Llama Stack - announced 2026-04-30 with the blog post From Llama Stack to OGX."
+      "description": "Open-source, model-agnostic agentic API server and OpenAI-compatible replacement for running AI applications on local, cloud, or datacenter infrastructure."
     },
     {
       "name": "Open Interpreter",
@@ -1641,7 +1640,7 @@
       "category": "Memory / context system",
       "url": "https://github.com/microsoft/TaskWeaver",
       "repo": "microsoft/TaskWeaver",
-      "description": "Code-first agent framework for data analytics - from Microsoft Research."
+      "description": "Microsoft Research code-first agent framework that plans data analytics tasks as code and executes plugins while preserving code and chat history."
     },
     {
       "name": "TEN Framework",
@@ -1732,7 +1731,7 @@
       "category": "Low-code builder / agent app",
       "url": "https://github.com/CherryHQ/cherry-studio",
       "repo": "CherryHQ/cherry-studio",
-      "description": "Classified as Outside taxonomy - it is a packaged end-user desktop application (Electron/TypeScript) rather than a framework or runtime that other developers build on."
+      "description": "Open-source desktop AI productivity studio with smart chat, autonomous agents, assistant templates, and unified access to multiple LLM providers."
     },
     {
       "name": "CowAgent",
@@ -1767,7 +1766,7 @@
       "category": "Low-code builder / agent app",
       "url": "https://github.com/langgenius/dify",
       "repo": "langgenius/dify",
-      "description": "The platform's architecture explicitly externalizes storage - users configure their own vector store, document store, and session/conversation persistence backends."
+      "description": "Open-source LLM app platform combining visual workflows, RAG pipelines, agent capabilities, model management, and observability features."
     },
     {
       "name": "DocsGPT",
@@ -1956,7 +1955,7 @@
       "category": "Tool / protocol / connector layer",
       "url": "https://github.com/transitive-bullshit/agentic",
       "repo": "transitive-bullshit/agentic",
-      "description": "Agentic - Your API Paid MCP."
+      "description": "Archived tool marketplace and MCP gateway for publishing OpenAPI services and MCP servers as monetized agent tools."
     },
     {
       "name": "Appwrite",
@@ -2110,7 +2109,7 @@
       "category": "Tool / protocol / connector layer",
       "url": "https://github.com/windmill-labs/windmill",
       "repo": "windmill-labs/windmill",
-      "description": "Open-source developer platform for building internal tools, automations, and data pipelines - a developer-first alternative to n8n and Zapier."
+      "description": "Open-source developer platform for turning scripts into APIs, background jobs, workflows, and internal UIs across multiple languages."
     },
     {
       "name": "Accomplish",
@@ -2145,7 +2144,7 @@
       "category": "Developer / computer-use agent",
       "url": "https://github.com/browser-use/browser-harness",
       "repo": "browser-use/browser-harness",
-      "description": "Browser Harness helps agents operate developer tools, browsers, desktops, or local workflows."
+      "description": "Editable CDP harness that connects LLMs directly to a real browser and lets the agent create missing automation during execution."
     },
     {
       "name": "browser-use",
@@ -2173,28 +2172,28 @@
       "category": "Developer / computer-use agent",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools MCP helps agents operate developer tools, browsers, desktops, or local workflows."
+      "description": "MCP server that gives coding agents access to a live Chrome browser through Chrome DevTools inspection and control capabilities."
     },
     {
       "name": "Claude Task Master",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/eyaltoledano/claude-task-master",
       "repo": "eyaltoledano/claude-task-master",
-      "description": "Claude Task Master helps agents operate developer tools, browsers, desktops, or local workflows."
+      "description": "AI-driven task management system for coding assistants that breaks product work into structured tasks across Cursor and similar tools."
     },
     {
       "name": "Cline",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/cline/cline",
       "repo": "cline/cline",
-      "description": "Cline helps agents operate developer tools, browsers, desktops, or local workflows."
+      "description": "Open-source coding agent available as an IDE extension, SDK, and CLI assistant for interactive or headless software engineering workflows."
     },
     {
       "name": "Composio Agent Orchestrator",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/AgentWrapper/agent-orchestrator",
       "repo": "AgentWrapper/agent-orchestrator",
-      "description": "Composio Agent Orchestrator - agentic orchestrator for parallel coding agents."
+      "description": "Agentic IDE and orchestrator for parallel coding agents with isolated workspaces, CI feedback loops, review handling, and merge-conflict support."
     },
     {
       "name": "Continue",
@@ -2250,14 +2249,14 @@
       "category": "Developer / computer-use agent",
       "url": "https://github.com/gptme/gptme",
       "repo": "gptme/gptme",
-      "description": "Terminal-based personal AI agent with local tool execution - code writing, terminal use, web browsing."
+      "description": "Provider-agnostic terminal agent with shell, Python, web, and vision tools for local-first coding, browsing, CI, and server workflows."
     },
     {
       "name": "Kilo Code",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/Kilo-Org/kilocode",
       "repo": "Kilo-Org/kilocode",
-      "description": "Kilo Code is an all-in-one agentic engineering platform - an opinionated coding agent harness that spans code generation, task orchestration, and agent execution."
+      "description": "Open-source coding agent for VS Code, JetBrains, and CLI workflows with model switching, task execution, and agentic engineering features."
     },
     {
       "name": "mini-swe-agent",
@@ -2285,7 +2284,7 @@
       "category": "Developer / computer-use agent",
       "url": "https://github.com/zai-org/Open-AutoGLM",
       "repo": "zai-org/Open-AutoGLM",
-      "description": "Open-AutoGLM helps agents operate developer tools, browsers, desktops, or local workflows."
+      "description": "Open phone-agent model and framework for multimodal screen understanding and automated mobile task execution."
     },
     {
       "name": "open-swe",
@@ -2327,7 +2326,7 @@
       "category": "Developer / computer-use agent",
       "url": "https://github.com/microsoft/playwright-mcp",
       "repo": "microsoft/playwright-mcp",
-      "description": "Playwright MCP helps agents operate developer tools, browsers, desktops, or local workflows."
+      "description": "MCP server that exposes Playwright browser automation to LLMs through structured accessibility snapshots instead of screenshot-only control."
     },
     {
       "name": "Refact",
@@ -2348,21 +2347,21 @@
       "category": "Developer / computer-use agent",
       "url": "https://github.com/browserbase/stagehand",
       "repo": "browserbase/stagehand",
-      "description": "Stagehand helps agents operate developer tools, browsers, desktops, or local workflows."
+      "description": "Browser automation framework that combines Playwright-style code with natural-language actions for production web agents."
     },
     {
       "name": "Steel Browser",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/steel-dev/steel-browser",
       "repo": "steel-dev/steel-browser",
-      "description": "Steel Browser is an open-source Browser API for AI Agents & Apps - a batteries-included browser sandbox for automating the web."
+      "description": "Open-source browser API for AI agents that manages sessions, pages, and browser processes so apps can automate live websites."
     },
     {
       "name": "superdesign",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/superdesigndev/superdesign",
       "repo": "superdesigndev/superdesign",
-      "description": "AI product design agent - an opinionated harness for running design and coding tasks end-to-end via LLM agents."
+      "description": "Archived open-source IDE extension for AI product design workflows, with the active Superdesign product now maintained as a web app."
     },
     {
       "name": "SWE-agent",
@@ -2397,14 +2396,14 @@
       "category": "Developer / computer-use agent",
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "repo": "bytedance/UI-TARS-desktop",
-      "description": "Maintained primarily by ByteDance engineers (top contributors all list ByteDance/ByteDance Seed)."
+      "description": "Multimodal agent stack from ByteDance for GUI, browser, computer, and product workflows through CLI, web UI, vision, and MCP tools."
     },
     {
       "name": "Vibe Kanban",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/BloopAI/vibe-kanban",
       "repo": "BloopAI/vibe-kanban",
-      "description": "Vibe Kanban is an opinionated task orchestration harness for AI coding agents - notably Claude Code, Codex, and similar systems."
+      "description": "Kanban workspace for planning, reviewing, and running coding agents such as Claude Code, Gemini CLI, Codex, and Amp."
     },
     {
       "name": "Adala",
@@ -2425,7 +2424,7 @@
       "category": "Data / ingestion / MLOps substrate",
       "url": "https://github.com/airbytehq/airbyte",
       "repo": "airbytehq/airbyte",
-      "description": "Airbyte supports data ingestion, pipelines, or MLOps workflows adjacent to agent systems."
+      "description": "Open-source data movement platform for ELT and AI agents, with hundreds of connectors for APIs, databases, files, warehouses, lakes, and AI apps."
     },
     {
       "name": "Apache Airflow",
@@ -2439,7 +2438,7 @@
       "category": "Data / ingestion / MLOps substrate",
       "url": "https://github.com/areal-project/AReaL",
       "repo": "areal-project/AReaL",
-      "description": "The RL Bridge for LLM-based agent applications - a reinforcement learning training/infra toolkit from Ant Group's inclusionAI initiative."
+      "description": "Large-scale asynchronous reinforcement learning infrastructure for bridging foundation model training with agent-based applications."
     },
     {
       "name": "Builder.io",
@@ -2453,7 +2452,7 @@
       "category": "Data / ingestion / MLOps substrate",
       "url": "https://github.com/cocoindex-io/cocoindex",
       "repo": "cocoindex-io/cocoindex",
-      "description": "CocoIndex - incremental engine for long-horizon agents and data framework for AI."
+      "description": "Incremental indexing engine that keeps codebases, notes, inboxes, Slack, PDFs, and videos fresh as context for AI agents and LLM apps."
     },
     {
       "name": "Coral",
@@ -2516,7 +2515,7 @@
       "category": "Data / ingestion / MLOps substrate",
       "url": "https://github.com/QuivrHQ/MegaParse",
       "repo": "QuivrHQ/MegaParse",
-      "description": "MegaParse is a file parser optimised for LLM ingestion - it converts PDFs, DOCX, PPTX, and other document formats into clean, structured text with minimal information loss."
+      "description": "Document parser for LLM ingestion that converts PDFs, DOCX, PowerPoint files, and other formats while preserving document information."
     },
     {
       "name": "MindsDB",
@@ -2544,7 +2543,7 @@
       "category": "Data / ingestion / MLOps substrate",
       "url": "https://github.com/pathwaycom/pathway",
       "repo": "pathwaycom/pathway",
-      "description": "Pathway supports data ingestion, pipelines, or MLOps workflows adjacent to agent systems."
+      "description": "Python live data framework for ETL, stream processing, real-time analytics, LLM pipelines, and RAG in development or production."
     },
     {
       "name": "Prefect",
@@ -2572,7 +2571,7 @@
       "category": "Data / ingestion / MLOps substrate",
       "url": "https://github.com/getomni-ai/zerox",
       "repo": "getomni-ai/zerox",
-      "description": "Zerox supports data ingestion, pipelines, or MLOps workflows adjacent to agent systems."
+      "description": "OCR and document extraction toolkit that converts files into images and uses vision models to produce Markdown for AI ingestion."
     },
     {
       "name": "Agenta",
@@ -2593,7 +2592,7 @@
       "category": "Observability / evals",
       "url": "https://github.com/Arize-ai/phoenix",
       "repo": "Arize-ai/phoenix",
-      "description": "Arize Phoenix - AI Observability & Evaluation."
+      "description": "Open-source AI observability platform for tracing, evaluation, datasets, experimentation, and troubleshooting LLM applications."
     },
     {
       "name": "AxonHub",
@@ -2614,14 +2613,14 @@
       "category": "Observability / evals",
       "url": "https://github.com/guardrails-ai/guardrails",
       "repo": "guardrails-ai/guardrails",
-      "description": "Guardrails provides tracing, evaluation, monitoring, or operational insight for agent systems."
+      "description": "Python framework for adding input and output guards to AI applications and generating structured data from LLMs."
     },
     {
       "name": "Helicone",
       "category": "Observability / evals",
       "url": "https://github.com/Helicone/helicone",
       "repo": "Helicone/helicone",
-      "description": "Positioned alongside Langfuse, Opik, and Traceloop/OpenLLMetry as an observability/LLMOps backend."
+      "description": "Open-source LLM observability platform for agent tracing, routing, cost and latency tracking, datasets, experiments, and fallbacks."
     },
     {
       "name": "HolmesGPT",
@@ -2712,14 +2711,14 @@
       "category": "Observability / evals",
       "url": "https://github.com/superagent-ai/superagent",
       "repo": "superagent-ai/superagent",
-      "description": "Superagent - open-source SDK for AI agent safety."
+      "description": "Open-source AI safety SDK for blocking prompt injections, redacting PII and secrets, scanning repositories, and running red-team scenarios."
     },
     {
       "name": "TruLens",
       "category": "Observability / evals",
       "url": "https://github.com/truera/trulens",
       "repo": "truera/trulens",
-      "description": "TruLens provides tracing, evaluation, monitoring, or operational insight for agent systems."
+      "description": "Evaluation and tracking framework for LLM experiments, prompts, models, retrievers, knowledge sources, and agent applications."
     },
     {
       "name": "Bifrost",
@@ -2754,7 +2753,7 @@
       "category": "Model serving / gateway",
       "url": "https://github.com/janhq/jan",
       "repo": "janhq/jan",
-      "description": "Jan provides model serving, routing, gateway, or inference infrastructure."
+      "description": "Open-source ChatGPT-style desktop app for downloading and running LLMs locally with full control and offline privacy."
     },
     {
       "name": "LiteLLM",
@@ -2782,7 +2781,7 @@
       "category": "Model serving / gateway",
       "url": "https://github.com/mudler/LocalAI",
       "repo": "mudler/LocalAI",
-      "description": "LocalAI provides model serving, routing, gateway, or inference infrastructure."
+      "description": "Open-source AI engine for running LLM, vision, voice, image, and video models on local hardware through composable backends."
     },
     {
       "name": "Manifest",
@@ -2796,7 +2795,7 @@
       "category": "Model serving / gateway",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "repo": "modelcontextprotocol/rust-sdk",
-      "description": "MCP Rust SDK - the official Rust SDK for the Model Context Protocol, maintained in the modelcontextprotocol org alongside the TypeScript, Python, and other language SDKs."
+      "description": "Official Rust SDK for the Model Context Protocol with a Tokio async runtime, protocol implementation crate, and schema artifacts."
     },
     {
       "name": "New API",
@@ -2810,14 +2809,14 @@
       "category": "Model serving / gateway",
       "url": "https://github.com/qualcomm/GenieX",
       "repo": "qualcomm/GenieX",
-      "description": "Includes a built-in vector store for on-device RAG."
+      "description": "On-device GenAI inference runtime for Qualcomm Snapdragon devices with CLI, Python, Kotlin/Java, Docker, and OpenAI-compatible server interfaces."
     },
     {
       "name": "Nexent",
       "category": "Model serving / gateway",
       "url": "https://github.com/ModelEngine-Group/nexent",
       "repo": "ModelEngine-Group/nexent",
-      "description": "Nexent provides model serving, routing, gateway, or inference infrastructure."
+      "description": "Zero-code platform for generating production AI agents with unified tools, skills, memory, orchestration, constraints, feedback, and controls."
     },
     {
       "name": "Ollama",
@@ -2845,7 +2844,7 @@
       "category": "Model serving / gateway",
       "url": "https://github.com/crmne/ruby_llm",
       "repo": "crmne/ruby_llm",
-      "description": "Ruby LLM provider abstraction layer - one unified API for OpenAI, Anthropic, Gemini, Bedrock, DeepSeek, Mistral, Ollama, and 10+ other providers."
+      "description": "Ruby AI framework for Rails-friendly chats, tools, agents, RAG, workflows, multimodal features, and switching across major model providers."
     },
     {
       "name": "rust-genai",
@@ -2866,7 +2865,7 @@
       "category": "Model serving / gateway",
       "url": "https://github.com/sgl-project/sglang",
       "repo": "sgl-project/sglang",
-      "description": "SGLang is a high-performance serving framework for large language models and multimodal models - similar surface to vLLM (inference serving / structured output)."
+      "description": "High-performance serving framework for large language and multimodal models, including fast inference, structured generation, and new model support."
     },
     {
       "name": "vLLM",
@@ -2880,7 +2879,7 @@
       "category": "Database / infrastructure product",
       "url": "https://github.com/activeloopai/deeplake",
       "repo": "activeloopai/deeplake",
-      "description": "Deep Lake is Activeloop's AI data runtime - a serverless multimodal data lake / vector database / memory store for AI agents."
+      "description": "Database for AI applications with a deep-learning-optimized storage format for storing, searching, and training over data plus vectors."
     },
     {
       "name": "HydraDB",
@@ -2894,7 +2893,7 @@
       "category": "Protocol / standard only",
       "url": "https://github.com/agentclientprotocol/agent-client-protocol",
       "repo": "agentclientprotocol/agent-client-protocol",
-      "description": "Sits alongside MCP in the emerging protocol layer of the agentic stack - MCP connects agents to tools; ACP connects editor UIs to agents."
+      "description": "Protocol that standardizes communication between code editors and coding agents, with schemas and Rust artifacts for wire messages."
     },
     {
       "name": "Model Context Protocol (MCP)",

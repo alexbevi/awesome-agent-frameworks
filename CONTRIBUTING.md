@@ -25,20 +25,29 @@ Submissions may be declined when they are general AI resources, generic DevOps t
 ## Entry Format
 
 Entries are stored in [`data/frameworks.json`](data/frameworks.json). Add or edit
-the JSON object for the project, including its `name`, `category`, GitHub `url`,
-`repo`, and short neutral `description`.
+the JSON object for the project, including its `name`, `category`, `url`, short
+neutral `description`, and `repo` when the entry points to a public GitHub
+repository.
 
-The generated README entry must use this format:
+GitHub-backed generated README entries use this format:
 
 ```markdown
 - [Name](https://github.com/owner/repo) ![GitHub Repo stars](https://img.shields.io/github/stars/owner/repo?style=social) - Short neutral description.
 ```
 
+Platform entries that do not have an open-source repository may omit `repo`.
+Those entries link to the canonical product page and render without a GitHub
+stars badge:
+
+```markdown
+- [Name](https://example.com/product) - Short neutral description.
+```
+
 Requirements:
 
 - Use the canonical project name.
-- Link the name to the canonical GitHub repository.
-- Include a valid GitHub repository stars badge from `shields.io`.
+- Link the name to the canonical GitHub repository, unless the listed runtime or platform is not open source.
+- Include a valid GitHub repository stars badge from `shields.io` when `repo` is present.
 - Keep the description short, factual, and neutral.
 - Start descriptions with a capital letter and end them with a period.
 - Do not use marketing claims, hype, emojis, or subjective praise.
@@ -63,7 +72,7 @@ Requirements:
 Before opening a pull request, confirm:
 
 - [ ] The project fits this repository's scope.
-- [ ] The project URL and GitHub repository URL both work.
+- [ ] The project URL works, and the GitHub repository URL works when `repo` is present.
 - [ ] The entry uses the required format.
 - [ ] The description is objective and concise.
 - [ ] The entry is in the right category.

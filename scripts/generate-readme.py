@@ -101,23 +101,30 @@ def validate_data(data: dict[str, Any]) -> tuple[list[dict[str, str]], list[dict
             name = require_string(raw, "name", context)
             category = require_string(raw, "category", context)
             url = require_string(raw, "url", context)
-            repo = require_string(raw, "repo", context)
+            repo = raw.get("repo", "")
+            if repo is None:
+                repo = ""
+            if not isinstance(repo, str):
+                errors.append(f"{context}: repo must be a string when present")
+                repo = ""
+            repo = repo.strip()
             description = require_string(raw, "description", context)
         except ValueError as exc:
             errors.append(str(exc))
             continue
         if category not in category_names:
             errors.append(f"{context}: unknown category {category!r}")
-        if not url.startswith("https://github.com/"):
-            errors.append(f"{context}: url must be a GitHub URL")
-        if not ENTRY_RE.match(repo):
-            errors.append(f"{context}: repo must be owner/repo")
-        if url.rstrip("/").lower() != f"https://github.com/{repo}".lower():
-            errors.append(f"{context}: url must match repo")
-        repo_key = repo.lower()
-        if repo_key in seen_repos:
-            errors.append(f"{context}: duplicate repo {repo!r}")
-        seen_repos.add(repo_key)
+        if not url.startswith("https://"):
+            errors.append(f"{context}: url must be an HTTPS URL")
+        if repo:
+            if not ENTRY_RE.match(repo):
+                errors.append(f"{context}: repo must be owner/repo")
+            if url.rstrip("/").lower() != f"https://github.com/{repo}".lower():
+                errors.append(f"{context}: url must match repo")
+            repo_key = repo.lower()
+            if repo_key in seen_repos:
+                errors.append(f"{context}: duplicate repo {repo!r}")
+            seen_repos.add(repo_key)
         if not description.endswith("."):
             errors.append(f"{context}: description must end with a period")
         frameworks.append(
@@ -182,9 +189,13 @@ def render_sections(categories: list[dict[str, str]], frameworks: list[dict[str,
             "",
         ]
         for entry in entries:
-            badge = f"![GitHub Repo stars](https://img.shields.io/github/stars/{entry['repo']}?style=social)"
+            badge = (
+                f" ![GitHub Repo stars](https://img.shields.io/github/stars/{entry['repo']}?style=social)"
+                if entry.get("repo")
+                else ""
+            )
             lines.append(
-                f"- [{markdown_label(entry['name'])}]({entry['url']}) {badge} - {entry['description']}"
+                f"- [{markdown_label(entry['name'])}]({entry['url']}){badge} - {entry['description']}"
             )
         sections.append("\n".join(lines))
     return "\n\n".join(sections)
