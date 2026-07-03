@@ -245,8 +245,8 @@ Memory and context layers that persist user state, conversation history, profile
 - [Memori](https://github.com/MemoriLabs/Memori) ![GitHub Repo stars](https://img.shields.io/github/stars/MemoriLabs/Memori?style=social) - LLM- and framework-agnostic Python + TypeScript SDKs.
 - [MemoryOS](https://github.com/BAI-LAB/MemoryOS) ![GitHub Repo stars](https://img.shields.io/github/stars/BAI-LAB/MemoryOS?style=social) - Architecture borrows from OS memory management: hierarchical short-term / mid-term / long-term persona memory with four core modules - Storage, Updating, Retrieval, Generation.
 - [MemOS](https://github.com/MemTensor/MemOS) ![GitHub Repo stars](https://img.shields.io/github/stars/MemTensor/MemOS?style=social) - MemOS (Memory Operating System) is a framework for persistent skill and context memory in LLM and agent systems.
-- [MemPalace](https://github.com/MemPalace/mempalace) ![GitHub Repo stars](https://img.shields.io/github/stars/MemPalace/mempalace?style=social) - MemPalace - The best-benchmarked open-source AI memory system.
-- [Memsearch](https://github.com/zilliztech/memsearch) ![GitHub Repo stars](https://img.shields.io/github/stars/zilliztech/memsearch?style=social) - , created Feb 2026 - rapid early growth.
+- [MemPalace](https://github.com/MemPalace/mempalace) ![GitHub Repo stars](https://img.shields.io/github/stars/MemPalace/mempalace?style=social) - MemPalace is an open-source AI memory system for storing and retrieving agent context.
+- [Memsearch](https://github.com/zilliztech/memsearch) ![GitHub Repo stars](https://img.shields.io/github/stars/zilliztech/memsearch?style=social) - Memsearch provides a persistent unified memory layer for AI agents backed by Markdown and Milvus.
 - [memU](https://github.com/NevaMind-AI/memU) ![GitHub Repo stars](https://img.shields.io/github/stars/NevaMind-AI/memU?style=social) - MemU is a memory framework for 24/7 proactive agents built by NevaMind AI, positioned as the OpenClaw alternative.
 - [Memvid](https://github.com/memvid/memvid) ![GitHub Repo stars](https://img.shields.io/github/stars/memvid/memvid?style=social) - Memory layer for AI agents that replaces complex RAG pipelines with a serverless, single-file memory layer designed for instant retrieval and long-term memory.
 - [ML Intern](https://github.com/huggingface/ml-intern) ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/ml-intern?style=social) - ML Intern - an open-source ML engineer agent from Hugging Face that reads papers, trains models, and ships ML models.
@@ -460,7 +460,7 @@ Tracing, evaluation, monitoring, audit, and incident-analysis tools for understa
 Inference servers, local model shells, provider gateways, routers, and API proxies that expose models behind a consistent serving layer.
 
 - [Bifrost](https://github.com/maximhq/bifrost) ![GitHub Repo stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social) - Enterprise AI gateway written in Go.
-- [exo](https://github.com/exo-explore/exo) ![GitHub Repo stars](https://img.shields.io/github/stars/exo-explore/exo?style=social) - exo provides model serving, routing, gateway, or inference infrastructure.
+- [exo](https://github.com/exo-explore/exo) ![GitHub Repo stars](https://img.shields.io/github/stars/exo-explore/exo?style=social) - Exo runs frontier AI models locally across consumer devices.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) ![GitHub Repo stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=social) - Open-source local LLM ecosystem by Nomic AI.
 - [GPTCache](https://github.com/zilliztech/GPTCache) ![GitHub Repo stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social) - Semantic cache for LLMs by Zilliz (creators of Milvus).
 - [Jan](https://github.com/janhq/jan) ![GitHub Repo stars](https://img.shields.io/github/stars/janhq/jan?style=social) - Jan provides model serving, routing, gateway, or inference infrastructure.
@@ -501,13 +501,13 @@ Specifications and standards that define how agent systems communicate or intero
 ## Related Awesome Lists
 
 - [Awesome AI Infrastructure](https://github.com/brandonhimpfen/awesome-ai-infrastructure) - Curated resources for AI infrastructure, platforms, and operational tooling.
-- [Awesome Lists](https://github.com/brandonhimpfen/awesome-lists) - A collection of curated awesome lists.
+- [Awesome Lists](https://github.com/brandonhimpfen/awesome-lists) - A collection of curated resource lists.
 
 ## Contribute
 
 Contributions are welcome. Please follow [`CONTRIBUTING.md`](CONTRIBUTING.md), including the required entry format, stars badge, category placement, and alphabetical sorting.
 
-If something apperas to be mis-classified, feel free to open an issue or PR to get it fixed.
+If something appears to be mis-classified, feel free to open an issue or PR to get it fixed.
 
 ## License
 

@@ -345,13 +345,6 @@
       "description": "Guidance is a domain-specific language for controlling large language models - constrained decoding, guided generation, structured output, and tool invocation."
     },
     {
-      "name": "Hermes Agent",
-      "category": "Low-code builder / agent app",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "repo": "NousResearch/hermes-agent",
-      "description": "Opinionated self-improving agent kit from Nous Research with 40+ built-in tools, multi-platform execution backends, and learning loop."
-    },
-    {
       "name": "Instructor",
       "category": "Agent SDK / framework",
       "url": "https://github.com/567-labs/instructor",
@@ -1476,14 +1469,14 @@
       "category": "Memory / context system",
       "url": "https://github.com/MemPalace/mempalace",
       "repo": "MemPalace/mempalace",
-      "description": "MemPalace - The best-benchmarked open-source AI memory system."
+      "description": "MemPalace is an open-source AI memory system for storing and retrieving agent context."
     },
     {
       "name": "Memsearch",
       "category": "Memory / context system",
       "url": "https://github.com/zilliztech/memsearch",
       "repo": "zilliztech/memsearch",
-      "description": ", created Feb 2026 - rapid early growth."
+      "description": "Memsearch provides a persistent unified memory layer for AI agents backed by Markdown and Milvus."
     },
     {
       "name": "memU",
@@ -1526,13 +1519,6 @@
       "url": "https://github.com/xlang-ai/OpenAgents",
       "repo": "xlang-ai/OpenAgents",
       "description": "XLANG Lab (COLM 2024 paper)."
-    },
-    {
-      "name": "OpenClaw",
-      "category": "Low-code builder / agent app",
-      "url": "https://github.com/openclaw/openclaw",
-      "repo": "openclaw/openclaw",
-      "description": "OpenClaw is a self-hosted personal AI assistant that connects to messaging platforms and local devices through a gateway."
     },
     {
       "name": "Osaurus",
@@ -1801,6 +1787,13 @@
       "description": "GoClaw is a Go-based multi-agent gateway and platform derived from OpenClaw patterns."
     },
     {
+      "name": "Hermes Agent",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "repo": "NousResearch/hermes-agent",
+      "description": "Opinionated self-improving agent kit from Nous Research with 40+ built-in tools, multi-platform execution backends, and learning loop."
+    },
+    {
       "name": "Langflow",
       "category": "Low-code builder / agent app",
       "url": "https://github.com/langflow-ai/langflow",
@@ -1876,6 +1869,13 @@
       "url": "https://github.com/open-webui/open-webui",
       "repo": "open-webui/open-webui",
       "description": "Extensible self-hosted AI interface platform for model management, chat, tools, and local workflows."
+    },
+    {
+      "name": "OpenClaw",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/openclaw/openclaw",
+      "repo": "openclaw/openclaw",
+      "description": "OpenClaw is a self-hosted personal AI assistant that connects to messaging platforms and local devices through a gateway."
     },
     {
       "name": "OpenWork",
@@ -2722,7 +2722,7 @@
       "category": "Model serving / gateway",
       "url": "https://github.com/exo-explore/exo",
       "repo": "exo-explore/exo",
-      "description": "exo provides model serving, routing, gateway, or inference infrastructure."
+      "description": "Exo runs frontier AI models locally across consumer devices."
     },
     {
       "name": "GPT4All",
@@ -2902,7 +2902,7 @@
     {
       "name": "Awesome Lists",
       "url": "https://github.com/brandonhimpfen/awesome-lists",
-      "description": "A collection of curated awesome lists."
+      "description": "A collection of curated resource lists."
     }
   ]
 }

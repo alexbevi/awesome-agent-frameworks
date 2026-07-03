@@ -51,6 +51,7 @@ Requirements:
 - Do not add alternate links for the same project as separate entries.
 - Run `python3 scripts/generate-readme.py` after editing `data/frameworks.json`.
 - Run `python3 scripts/generate-readme.py --check` to verify the README is current.
+- Run `python3 scripts/validate-data.py` to lint the JSON data and generated README.
 - Include both `data/frameworks.json` and the regenerated `README.md` in the pull request.
 - Do not edit generated README entries directly without updating `data/frameworks.json`.
 
@@ -68,5 +69,6 @@ Before opening a pull request, confirm:
 - [ ] `data/frameworks.json` was updated.
 - [ ] `python3 scripts/generate-readme.py` was run and the regenerated `README.md` is included.
 - [ ] `python3 scripts/generate-readme.py --check` passes.
+- [ ] `python3 scripts/validate-data.py` passes.
 
 Final decisions on inclusion, category placement, and wording rest with the maintainers.
