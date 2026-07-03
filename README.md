@@ -1,4 +1,4 @@
-# Awesome Agent Frameworks [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
+# Awesome Agent Frameworks
 
 A curated list of open source frameworks and tools for building agents, running agent systems, connecting tools, managing memory and retrieval, and observing or evaluating agent behavior.
 
