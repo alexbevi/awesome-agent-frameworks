@@ -9,6 +9,10 @@
       "description": "Execution engines for graph-based or durable agent workflows, including checkpointing, resumability, human-in-the-loop steps, and long-running state management."
     },
     {
+      "name": "Agent platform / control plane",
+      "description": "Production platforms and control planes for deploying, running, managing, and governing agent systems across self-hosted, managed, or hybrid environments."
+    },
+    {
       "name": "RAG / knowledge system",
       "description": "Retrieval-centered systems for ingesting documents, building indexes, searching knowledge sources, and grounding agent responses."
     },
@@ -709,13 +713,6 @@
       "description": "SDKs ship for TypeScript, Python, and Rust; a CLI mounts AgentFS via FUSE (Linux) or NFS (macOS)."
     },
     {
-      "name": "Agno",
-      "category": "Agent graph / runtime",
-      "url": "https://github.com/agno-agi/agno",
-      "repo": "agno-agi/agno",
-      "description": "Agno is a runtime or orchestration layer for agent applications."
-    },
-    {
       "name": "AIOS",
       "category": "Agent graph / runtime",
       "url": "https://github.com/agiresearch/AIOS",
@@ -877,13 +874,6 @@
       "description": "Hatchet - Orchestration engine for background tasks, AI agents, and durable workflows."
     },
     {
-      "name": "Helix",
-      "category": "Agent graph / runtime",
-      "url": "https://github.com/helixml/helix",
-      "repo": "helixml/helix",
-      "description": "Private agent fleet runtime that provisions GPU-accelerated compute for each agent, supporting Claude, Codex, Gemini, and open models on a self-hosted AI stack."
-    },
-    {
       "name": "HelixDB",
       "category": "Agent graph / runtime",
       "url": "https://github.com/HelixDB/helix-db",
@@ -905,13 +895,6 @@
       "description": "Open-source backend platform for agentic coding."
     },
     {
-      "name": "Kitaru",
-      "category": "Agent graph / runtime",
-      "url": "https://github.com/zenml-io/kitaru",
-      "repo": "zenml-io/kitaru",
-      "description": "Kitaru is a self-hosted, framework-agnostic runtime for production AI agents."
-    },
-    {
       "name": "LangGraph",
       "category": "Agent graph / runtime",
       "url": "https://github.com/langchain-ai/langgraph",
@@ -926,13 +909,6 @@
       "description": "Stateful agent execution runtime (formerly MemGPT) with persistent, editable memory architecture."
     },
     {
-      "name": "LocalAGI",
-      "category": "Agent graph / runtime",
-      "url": "https://github.com/mudler/LocalAGI",
-      "repo": "mudler/LocalAGI",
-      "description": "LocalAGI is a self-hostable agent platform and OpenAI Responses API replacement."
-    },
-    {
       "name": "Memobase",
       "category": "Agent graph / runtime",
       "url": "https://github.com/memodb-io/memobase",
@@ -945,13 +921,6 @@
       "url": "https://github.com/microsoft/promptflow",
       "repo": "microsoft/promptflow",
       "description": "Microsoft's LLM app development toolkit for building, evaluating, and deploying prompt flows."
-    },
-    {
-      "name": "MLflow",
-      "category": "Agent graph / runtime",
-      "url": "https://github.com/mlflow/mlflow",
-      "repo": "mlflow/mlflow",
-      "description": "Open source AI engineering platform for experiment tracking, evaluation, tracing, prompt management, and model deployment."
     },
     {
       "name": "Moltis",
@@ -1085,6 +1054,55 @@
       "url": "https://github.com/vercel-labs/zerolang",
       "repo": "vercel-labs/zerolang",
       "description": "Zerolang (the programming language for agents) is an experimental Vercel Labs project: a graph-native language where the semantic graph (zero.graph) is the program database."
+    },
+    {
+      "name": "Agno AgentOS",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/agno-agi/agno",
+      "repo": "agno-agi/agno",
+      "description": "FastAPI runtime and control plane for serving agents, sessions, memory, traces, and approval workflows in your infrastructure."
+    },
+    {
+      "name": "Helix",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/helixml/helix",
+      "repo": "helixml/helix",
+      "description": "Self-hosted agent platform that provisions private compute for agent fleets across SaaS and open model providers."
+    },
+    {
+      "name": "Kitaru",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/zenml-io/kitaru",
+      "repo": "zenml-io/kitaru",
+      "description": "Self-hosted, framework-agnostic runtime for deploying and operating production AI agents."
+    },
+    {
+      "name": "LangSmith",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/langchain-ai/langsmith-sdk",
+      "repo": "langchain-ai/langsmith-sdk",
+      "description": "Agent engineering platform for tracing, evaluation, deployment, and managed agent runtimes."
+    },
+    {
+      "name": "LlamaDeploy",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/run-llama/llama_deploy",
+      "repo": "run-llama/llama_deploy",
+      "description": "Deployment system for running LlamaIndex agentic workflows as scalable services in production."
+    },
+    {
+      "name": "LocalAGI",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/mudler/LocalAGI",
+      "repo": "mudler/LocalAGI",
+      "description": "Self-hosted agent platform and OpenAI Responses API replacement for running local agent systems."
+    },
+    {
+      "name": "MLflow",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/mlflow/mlflow",
+      "repo": "mlflow/mlflow",
+      "description": "Open-source AI engineering platform for tracing, evaluating, deploying, and monitoring LLM and agent applications."
     },
     {
       "name": "Cognee",
@@ -2632,13 +2650,6 @@
       "url": "https://github.com/langfuse/langfuse",
       "repo": "langfuse/langfuse",
       "description": "Open source LLM engineering platform providing observability, metrics, evals, prompt management, playground, and datasets."
-    },
-    {
-      "name": "LangSmith",
-      "category": "Observability / evals",
-      "url": "https://github.com/langchain-ai/langsmith-sdk",
-      "repo": "langchain-ai/langsmith-sdk",
-      "description": "LangSmith provides tracing, evaluation, monitoring, or operational insight for agent systems."
     },
     {
       "name": "Langtrace",

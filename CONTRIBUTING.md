@@ -8,6 +8,7 @@ Good submissions usually fit one of these categories:
 
 - Agent SDK / framework
 - Agent graph / runtime
+- Agent platform / control plane
 - RAG / knowledge system
 - Memory / context system
 - Low-code builder / agent app
@@ -46,6 +47,8 @@ Requirements:
 ## Sorting and Categories
 
 - Put the entry in the single best category.
+- Use Agent platform / control plane for systems whose primary role is deploying, running, managing, or governing agent applications across production environments.
+- Keep execution engines in Agent graph / runtime, and keep focused tracing or quality tools in Observability / evals.
 - Keep entries alphabetically sorted within each category by project name.
 - Do not add duplicate projects under multiple names.
 - Do not add alternate links for the same project as separate entries.

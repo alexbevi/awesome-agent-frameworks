@@ -6,6 +6,7 @@ A curated list of open source frameworks and tools for building agents, running 
 
 - [Agent SDK / framework](#agent-sdk-framework)
 - [Agent graph / runtime](#agent-graph-runtime)
+- [Agent platform / control plane](#agent-platform-control-plane)
 - [RAG / knowledge system](#rag-knowledge-system)
 - [Memory / context system](#memory-context-system)
 - [Low-code builder / agent app](#low-code-builder-agent-app)
@@ -125,7 +126,6 @@ Code-first libraries and frameworks for defining agents, tools, prompts, model c
 Execution engines for graph-based or durable agent workflows, including checkpointing, resumability, human-in-the-loop steps, and long-running state management.
 
 - [AgentFS](https://github.com/tursodatabase/agentfs) ![GitHub Repo stars](https://img.shields.io/github/stars/tursodatabase/agentfs?style=social) - SDKs ship for TypeScript, Python, and Rust; a CLI mounts AgentFS via FUSE (Linux) or NFS (macOS).
-- [Agno](https://github.com/agno-agi/agno) ![GitHub Repo stars](https://img.shields.io/github/stars/agno-agi/agno?style=social) - Agno is a runtime or orchestration layer for agent applications.
 - [AIOS](https://github.com/agiresearch/AIOS) ![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/AIOS?style=social) - AIOS - AI Agent Operating System.
 - [Astron Agent](https://github.com/iflytek/astron-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/iflytek/astron-agent?style=social) - Astron Agent is iFlyTek's enterprise agentic platform, a major player in the Chinese enterprise AI market.
 - [Auto Deep Researcher 24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) ![GitHub Repo stars](https://img.shields.io/github/stars/Xiangyue-Zhang/auto-deep-researcher-24x7?style=social) - Auto Deep Researcher 24x7 is an autonomous AI agent that runs deep learning experiments continuously (24/7) using a Leader-Worker architecture with constant-size memory.
@@ -149,17 +149,13 @@ Execution engines for graph-based or durable agent workflows, including checkpoi
 - [Eve](https://github.com/vercel/eve) ![GitHub Repo stars](https://img.shields.io/github/stars/vercel/eve?style=social) - Eve (The Framework for Building Agents) is Vercel's filesystem-first framework for durable AI agents, in public beta as of June 2026.
 - [Gastown](https://github.com/gastownhall/gastown) ![GitHub Repo stars](https://img.shields.io/github/stars/gastownhall/gastown?style=social) - Each agent has its own context window and state; Gastown manages routing, scheduling, and inter-agent communication.
 - [Hatchet](https://github.com/hatchet-dev/hatchet) ![GitHub Repo stars](https://img.shields.io/github/stars/hatchet-dev/hatchet?style=social) - Hatchet - Orchestration engine for background tasks, AI agents, and durable workflows.
-- [Helix](https://github.com/helixml/helix) ![GitHub Repo stars](https://img.shields.io/github/stars/helixml/helix?style=social) - Private agent fleet runtime that provisions GPU-accelerated compute for each agent, supporting Claude, Codex, Gemini, and open models on a self-hosted AI stack.
 - [HelixDB](https://github.com/HelixDB/helix-db) ![GitHub Repo stars](https://img.shields.io/github/stars/HelixDB/helix-db?style=social) - HelixDB is an open-source (Apache 2.0) OLTP graph-vector database built from scratch in Rust, positioned as a graph-vector database for knowledge graphs and AI memory.
 - [holaOS](https://github.com/holaboss-ai/holaOS) ![GitHub Repo stars](https://img.shields.io/github/stars/holaboss-ai/holaOS?style=social) - Open agent computer desktop harness (Electron, TypeScript) for any digital work - bundles an agent runtime with memory, MCP tool integration, and proactive workflows.
 - [InsForge](https://github.com/InsForge/InsForge) ![GitHub Repo stars](https://img.shields.io/github/stars/InsForge/InsForge?style=social) - Open-source backend platform for agentic coding.
-- [Kitaru](https://github.com/zenml-io/kitaru) ![GitHub Repo stars](https://img.shields.io/github/stars/zenml-io/kitaru?style=social) - Kitaru is a self-hosted, framework-agnostic runtime for production AI agents.
 - [LangGraph](https://github.com/langchain-ai/langgraph) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social) - Durable execution runtime from the LangChain team; the primary way LangChain users build stateful, multi-step agents.
 - [Letta](https://github.com/letta-ai/letta) ![GitHub Repo stars](https://img.shields.io/github/stars/letta-ai/letta?style=social) - Stateful agent execution runtime (formerly MemGPT) with persistent, editable memory architecture.
-- [LocalAGI](https://github.com/mudler/LocalAGI) ![GitHub Repo stars](https://img.shields.io/github/stars/mudler/LocalAGI?style=social) - LocalAGI is a self-hostable agent platform and OpenAI Responses API replacement.
 - [Memobase](https://github.com/memodb-io/memobase) ![GitHub Repo stars](https://img.shields.io/github/stars/memodb-io/memobase?style=social) - Memobase is a user-profile-based long-term memory layer for LLM chatbots - virtual companions, education, personalized assistants.
 - [Microsoft Promptflow](https://github.com/microsoft/promptflow) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/promptflow?style=social) - Microsoft's LLM app development toolkit for building, evaluating, and deploying prompt flows.
-- [MLflow](https://github.com/mlflow/mlflow) ![GitHub Repo stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social) - Open source AI engineering platform for experiment tracking, evaluation, tracing, prompt management, and model deployment.
 - [Moltis](https://github.com/moltis-org/moltis) ![GitHub Repo stars](https://img.shields.io/github/stars/moltis-org/moltis?style=social) - Moltis is a local-first persistent agent server in Rust.
 - [NanoClaw](https://github.com/nanocoai/nanoclaw) ![GitHub Repo stars](https://img.shields.io/github/stars/nanocoai/nanoclaw?style=social) - NanoClaw is a lightweight containerized AI assistant runtime that runs agents in isolated Linux containers for security.
 - [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/OpenShell?style=social) - Sandboxed execution runtime for autonomous AI agents from NVIDIA.
@@ -179,6 +175,19 @@ Execution engines for graph-based or durable agent workflows, including checkpoi
 - [Zep](https://github.com/getzep/zep) ![GitHub Repo stars](https://img.shields.io/github/stars/getzep/zep?style=social) - Zep is a purpose-built long-term memory runtime for AI agents with a knowledge-graph-backed memory architecture.
 - [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) ![GitHub Repo stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social) - ZeroClaw is a fast, small, fully autonomous AI personal assistant infrastructure written in Rust.
 - [Zerolang](https://github.com/vercel-labs/zerolang) ![GitHub Repo stars](https://img.shields.io/github/stars/vercel-labs/zerolang?style=social) - Zerolang (the programming language for agents) is an experimental Vercel Labs project: a graph-native language where the semantic graph (zero.graph) is the program database.
+
+<a id="agent-platform-control-plane"></a>
+## Agent platform / control plane
+
+Production platforms and control planes for deploying, running, managing, and governing agent systems across self-hosted, managed, or hybrid environments.
+
+- [Agno AgentOS](https://github.com/agno-agi/agno) ![GitHub Repo stars](https://img.shields.io/github/stars/agno-agi/agno?style=social) - FastAPI runtime and control plane for serving agents, sessions, memory, traces, and approval workflows in your infrastructure.
+- [Helix](https://github.com/helixml/helix) ![GitHub Repo stars](https://img.shields.io/github/stars/helixml/helix?style=social) - Self-hosted agent platform that provisions private compute for agent fleets across SaaS and open model providers.
+- [Kitaru](https://github.com/zenml-io/kitaru) ![GitHub Repo stars](https://img.shields.io/github/stars/zenml-io/kitaru?style=social) - Self-hosted, framework-agnostic runtime for deploying and operating production AI agents.
+- [LangSmith](https://github.com/langchain-ai/langsmith-sdk) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langsmith-sdk?style=social) - Agent engineering platform for tracing, evaluation, deployment, and managed agent runtimes.
+- [LlamaDeploy](https://github.com/run-llama/llama_deploy) ![GitHub Repo stars](https://img.shields.io/github/stars/run-llama/llama_deploy?style=social) - Deployment system for running LlamaIndex agentic workflows as scalable services in production.
+- [LocalAGI](https://github.com/mudler/LocalAGI) ![GitHub Repo stars](https://img.shields.io/github/stars/mudler/LocalAGI?style=social) - Self-hosted agent platform and OpenAI Responses API replacement for running local agent systems.
+- [MLflow](https://github.com/mlflow/mlflow) ![GitHub Repo stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social) - Open-source AI engineering platform for tracing, evaluating, deploying, and monitoring LLM and agent applications.
 
 <a id="rag-knowledge-system"></a>
 ## RAG / knowledge system
@@ -442,7 +451,6 @@ Tracing, evaluation, monitoring, audit, and incident-analysis tools for understa
 - [HumanLayer](https://github.com/humanlayer/humanlayer) ![GitHub Repo stars](https://img.shields.io/github/stars/humanlayer/humanlayer?style=social) - SDK for human-in-the-loop AI agent workflows.
 - [k8sGPT](https://github.com/k8sgpt-ai/k8sgpt) ![GitHub Repo stars](https://img.shields.io/github/stars/k8sgpt-ai/k8sgpt?style=social) - CNCF Sandbox project. k8sGPT scans Kubernetes clusters, surfaces problems in plain English, and uses LLMs to suggest fixes.
 - [Langfuse](https://github.com/langfuse/langfuse) ![GitHub Repo stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social) - Open source LLM engineering platform providing observability, metrics, evals, prompt management, playground, and datasets.
-- [LangSmith](https://github.com/langchain-ai/langsmith-sdk) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langsmith-sdk?style=social) - LangSmith provides tracing, evaluation, monitoring, or operational insight for agent systems.
 - [Langtrace](https://github.com/Scale3-Labs/langtrace) ![GitHub Repo stars](https://img.shields.io/github/stars/Scale3-Labs/langtrace?style=social) - Langtrace is an open-source, OpenTelemetry-based end-to-end observability tool for LLM applications.
 - [LangWatch](https://github.com/langwatch/langwatch) ![GitHub Repo stars](https://img.shields.io/github/stars/langwatch/langwatch?style=social) - LLM monitoring and analytics platform with tracing, evaluation, and optimization features.
 - [Monocle](https://github.com/monocle2ai/monocle) ![GitHub Repo stars](https://img.shields.io/github/stars/monocle2ai/monocle?style=social) - Monocle is an open-source (Apache 2.0) library for tracing and testing GenAI apps and agents, governed as a Linux Foundation AI & Data project (LF sandbox).
