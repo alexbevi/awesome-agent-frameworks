@@ -1,0 +1,2908 @@
+{
+  "categories": [
+    {
+      "name": "Agent SDK / framework",
+      "description": "Code-first libraries and frameworks for defining agents, tools, prompts, model calls, and shared state in custom agent applications."
+    },
+    {
+      "name": "Agent graph / runtime",
+      "description": "Execution engines for graph-based or durable agent workflows, including checkpointing, resumability, human-in-the-loop steps, and long-running state management."
+    },
+    {
+      "name": "RAG / knowledge system",
+      "description": "Retrieval-centered systems for ingesting documents, building indexes, searching knowledge sources, and grounding agent responses."
+    },
+    {
+      "name": "Memory / context system",
+      "description": "Memory and context layers that persist user state, conversation history, profiles, or knowledge graphs across agent steps and sessions."
+    },
+    {
+      "name": "Low-code builder / agent app",
+      "description": "Visual builders and packaged applications for assembling agents, chat or RAG workflows, automations, and assistants with less custom code."
+    },
+    {
+      "name": "Tool / protocol / connector layer",
+      "description": "Protocols, tool registries, connector catalogs, and auth brokers that let agents discover, call, and coordinate external systems."
+    },
+    {
+      "name": "Developer / computer-use agent",
+      "description": "Agents and support tools built for software development, browser automation, desktop control, terminal workflows, and other computer-use tasks."
+    },
+    {
+      "name": "Data / ingestion / MLOps substrate",
+      "description": "Data and ML infrastructure for collecting, parsing, transforming, labeling, evaluating, or orchestrating the pipelines that feed agent systems."
+    },
+    {
+      "name": "Observability / evals",
+      "description": "Tracing, evaluation, monitoring, audit, and incident-analysis tools for understanding agent behavior, quality, cost, safety, and production reliability."
+    },
+    {
+      "name": "Model serving / gateway",
+      "description": "Inference servers, local model shells, provider gateways, routers, and API proxies that expose models behind a consistent serving layer."
+    },
+    {
+      "name": "Database / infrastructure product",
+      "description": "Databases, vector or graph stores, memory substrates, deployment platforms, and other infrastructure that agent systems rely on at runtime."
+    },
+    {
+      "name": "Protocol / standard only",
+      "description": "Specifications and standards that define how agent systems communicate or interoperate, without being full product implementations themselves."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "AG2",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/ag2ai/ag2",
+      "repo": "ag2ai/ag2",
+      "description": "Community continuation of Microsoft's AutoGen multi-agent framework."
+    },
+    {
+      "name": "Agency Swarm",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/VRSEN/agency-swarm",
+      "repo": "VRSEN/agency-swarm",
+      "description": "Open-source framework for building structured, reliable AI agent networks where each agent has clearly defined roles and communication channels."
+    },
+    {
+      "name": "Agent Zero",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/agent0ai/agent-zero",
+      "repo": "agent0ai/agent-zero",
+      "description": "Designed as a personal AI assistant that orchestrates other agents, uses tools, executes code, and builds dynamic memory."
+    },
+    {
+      "name": "AgentDock",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/AgentDock/AgentDock",
+      "repo": "AgentDock/AgentDock",
+      "description": "AgentDock is a general-purpose Build Anything with AI Agents framework."
+    },
+    {
+      "name": "Agentica",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/wrtnlabs/agentica",
+      "repo": "wrtnlabs/agentica",
+      "description": "Agentica uses TypeScript compiler analysis to automatically generate type-safe function schemas for LLM tool calling, eliminating manual schema definition."
+    },
+    {
+      "name": "Agently",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/AgentEra/Agently",
+      "repo": "AgentEra/Agently",
+      "description": "Structured data chaining, multi-LLM support."
+    },
+    {
+      "name": "AgentScope",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "repo": "agentscope-ai/agentscope",
+      "description": "Full-featured multi-agent framework from Alibaba DAMO Academy."
+    },
+    {
+      "name": "AgentScope Java",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "repo": "agentscope-ai/agentscope-java",
+      "description": "Java port of Alibaba's AgentScope framework for building LLM applications using an agent-oriented programming model."
+    },
+    {
+      "name": "agentUniverse",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/agentuniverse-ai/agentUniverse",
+      "repo": "agentuniverse-ai/agentUniverse",
+      "description": "AgentUniverse is a Python LLM multi-agent framework for building collaborative agent applications."
+    },
+    {
+      "name": "Atomic Agents",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/Eigenwise/atomic-agents",
+      "repo": "Eigenwise/atomic-agents",
+      "description": "Lightweight modular agent framework built on Pydantic."
+    },
+    {
+      "name": "AutoAgents",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/liquidos-ai/AutoAgents",
+      "repo": "liquidos-ai/AutoAgents",
+      "description": "AutoAgents is a Rust multi-agent framework from liquidos-ai for building, deploying, and coordinating multiple intelligent agents."
+    },
+    {
+      "name": "AutoGen",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/microsoft/autogen",
+      "repo": "microsoft/autogen",
+      "description": "Microsoft's foundational multi-agent conversation framework."
+    },
+    {
+      "name": "BabyAGI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/yoheinakajima/babyagi",
+      "repo": "yoheinakajima/babyagi",
+      "description": "BabyAGI is a framework or SDK for building agent applications."
+    },
+    {
+      "name": "BeeAI Framework",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "repo": "i-am-bee/beeai-framework",
+      "description": "BeeAI Framework is an open-source (Apache 2.0) framework for building production-ready multi-agent systems, with first-class parity across Python and TypeScript."
+    },
+    {
+      "name": "BotSharp",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "repo": "SciSharp/BotSharp",
+      "description": "BotSharp - AI multi-agent framework in .NET."
+    },
+    {
+      "name": "Boxcars",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/BoxcarsAI/boxcars",
+      "repo": "BoxcarsAI/boxcars",
+      "description": "Ruby AI framework focused on composable boxcars (chains/tools) with LLM backends."
+    },
+    {
+      "name": "CAMEL",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/camel-ai/camel",
+      "repo": "camel-ai/camel",
+      "description": "Multi-agent research framework studying collaborative AI systems at scale."
+    },
+    {
+      "name": "Cheshire Cat AI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/cheshire-cat-ai/core",
+      "repo": "cheshire-cat-ai/core",
+      "description": "Cheshire Cat provides a production-ready, plugin-based AI agent server with memory, tool use, and RAG over personal/organizational documents."
+    },
+    {
+      "name": "Context7",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/upstash/context7",
+      "repo": "upstash/context7",
+      "description": "Context7 is an MCP server that fetches live, up-to-date documentation for libraries and injects it directly into LLM/AI coding agent contexts."
+    },
+    {
+      "name": "CopilotKit",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "repo": "CopilotKit/CopilotKit",
+      "description": "Frontend SDK for building agent-native UI in React."
+    },
+    {
+      "name": "CrewAI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "repo": "crewAIInc/crewAI",
+      "description": "CrewAI is a framework or SDK for building agent applications."
+    },
+    {
+      "name": "Crush",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/charmbracelet/crush",
+      "repo": "charmbracelet/crush",
+      "description": "Crush - Glamourous agentic coding for all."
+    },
+    {
+      "name": "Deep Agents",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "repo": "langchain-ai/deepagents",
+      "description": "Deep Agents is LangChain's batteries-included agent harness."
+    },
+    {
+      "name": "DeepCode",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/HKUDS/DeepCode",
+      "repo": "HKUDS/DeepCode",
+      "description": "DeepCode is an open agentic coding research harness from HKUDS (Hong Kong University) supporting Paper2Code, Text2Web, and Text2Backend workflows."
+    },
+    {
+      "name": "DSPy",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "repo": "stanfordnlp/dspy",
+      "description": "DSPy is a framework or SDK for building agent applications."
+    },
+    {
+      "name": "Eino",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/cloudwego/eino",
+      "repo": "cloudwego/eino",
+      "description": "Eino is ByteDance's production Go-based LLM application framework with composable retrieval, memory, and orchestration abstractions."
+    },
+    {
+      "name": "Eliza",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/elizaos/eliza",
+      "repo": "elizaos/eliza",
+      "description": "Multi-agent simulation framework for autonomous AI agents, originally popularized by ai16z."
+    },
+    {
+      "name": "Embabel",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/embabel/embabel-agent",
+      "repo": "embabel/embabel-agent",
+      "description": "Embabel - Agent framework for the JVM."
+    },
+    {
+      "name": "EvoAgentX",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/EvoAgentX/EvoAgentX",
+      "repo": "EvoAgentX/EvoAgentX",
+      "description": "Self-evolving multi-agent ecosystem that auto-generates and refines agent pipelines."
+    },
+    {
+      "name": "Firebase Genkit",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/genkit-ai/genkit",
+      "repo": "genkit-ai/genkit",
+      "description": "Genkit is Google's production-backed open-source AI app framework for JS/Go/Python."
+    },
+    {
+      "name": "Forge",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/antoinezambelli/forge",
+      "repo": "antoinezambelli/forge",
+      "description": "Forge is a framework or SDK for building agent applications."
+    },
+    {
+      "name": "GenAIScript",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/microsoft/genaiscript",
+      "repo": "microsoft/genaiscript",
+      "description": "Microsoft's automatable GenAI scripting environment."
+    },
+    {
+      "name": "GenericAgent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "repo": "lsdefine/GenericAgent",
+      "description": "GenericAgent is a minimal (~3K lines), self-evolving autonomous agent framework."
+    },
+    {
+      "name": "GenSX",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/gensx-inc/gensx",
+      "repo": "gensx-inc/gensx",
+      "description": "GenSX is a TypeScript framework for building agents and workflows using React-like component composition."
+    },
+    {
+      "name": "Google ADK Go",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/google/adk-go",
+      "repo": "google/adk-go",
+      "description": "Google ADK Go is the Go-language member of the Google Agent Development Kit family, extending the same agent abstractions to Go developers."
+    },
+    {
+      "name": "Google ADK (Java)",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/google/adk-java",
+      "repo": "google/adk-java",
+      "description": "Provides code-first agent building for Java developers with support for Gemini models, tool calling, multi-agent orchestration, and memory/session persistence."
+    },
+    {
+      "name": "Google ADK (JavaScript)",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/google/adk-js",
+      "repo": "google/adk-js",
+      "description": "Google's Agent Development Kit for JavaScript/TypeScript - the official JS implementation of ADK."
+    },
+    {
+      "name": "Google Agent Development Kit (ADK)",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/google/adk-python",
+      "repo": "google/adk-python",
+      "description": "Google's open-source agent development framework, tightly integrated with Gemini models and Google Cloud infrastructure."
+    },
+    {
+      "name": "Google Antigravity SDK",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/google-antigravity/antigravity-sdk-python",
+      "repo": "google-antigravity/antigravity-sdk-python",
+      "description": "Google Antigravity SDK is an official Python SDK for building Antigravity/Gemini-powered agents."
+    },
+    {
+      "name": "Gorilla",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/ShishirPatil/gorilla",
+      "repo": "ShishirPatil/gorilla",
+      "description": "LLM function call training, evaluation, and inference framework from UC Berkeley."
+    },
+    {
+      "name": "Griptape",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/griptape-ai/griptape",
+      "repo": "griptape-ai/griptape",
+      "description": "Modular Python agent framework with strict separation of concerns."
+    },
+    {
+      "name": "Guidance",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/guidance-ai/guidance",
+      "repo": "guidance-ai/guidance",
+      "description": "Guidance is a domain-specific language for controlling large language models - constrained decoding, guided generation, structured output, and tool invocation."
+    },
+    {
+      "name": "Hermes Agent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "repo": "NousResearch/hermes-agent",
+      "description": "Opinionated self-improving agent kit from Nous Research with 40+ built-in tools, multi-platform execution backends, and learning loop."
+    },
+    {
+      "name": "Instructor",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/567-labs/instructor",
+      "repo": "567-labs/instructor",
+      "description": "Python library for structured LLM output with Pydantic validation, retries, and tool-call friendly schemas."
+    },
+    {
+      "name": "IntentKit",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/crestalnetwork/intentkit",
+      "repo": "crestalnetwork/intentkit",
+      "description": "Agent framework for building specialized skill-based AI agents."
+    },
+    {
+      "name": "JARVIS (HuggingGPT)",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/microsoft/JARVIS",
+      "repo": "microsoft/JARVIS",
+      "description": "Microsoft Research prototype (HuggingGPT) - LLM as controller, routes tasks to specialized Hugging Face models."
+    },
+    {
+      "name": "JoyAgent-JDGenie",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/jd-opensource/joyagent-jdgenie",
+      "repo": "jd-opensource/joyagent-jdgenie",
+      "description": "Production-grade universal multi-agent framework from JD.com."
+    },
+    {
+      "name": "KaibanJS",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/kaiban-ai/KaibanJS",
+      "repo": "kaiban-ai/KaibanJS",
+      "description": "JavaScript-native multi-agent framework that applies Kanban-style workflow management to AI agent orchestration."
+    },
+    {
+      "name": "LangChain",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/langchain-ai/langchain",
+      "repo": "langchain-ai/langchain",
+      "description": "The dominant LLM application framework."
+    },
+    {
+      "name": "LangChain Elixir",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/brainlid/langchain",
+      "repo": "brainlid/langchain",
+      "description": "LangChain Elixir - Elixir implementation of a LangChain-style framework that lets Elixir projects integrate with and leverage LLMs."
+    },
+    {
+      "name": "LangChain Go",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/tmc/langchaingo",
+      "repo": "tmc/langchaingo",
+      "description": "Community-maintained Go port of LangChain, implementing the core abstractions - chains, agents, tools, vector stores, memory - in idiomatic Go."
+    },
+    {
+      "name": "LangChain.js",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/langchain-ai/langchainjs",
+      "repo": "langchain-ai/langchainjs",
+      "description": "The official TypeScript/JavaScript port of LangChain."
+    },
+    {
+      "name": "Langchain.rb",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/patterns-ai-core/langchainrb",
+      "repo": "patterns-ai-core/langchainrb",
+      "description": "Ruby port of LangChain with vectorstore, memory, and tool abstractions."
+    },
+    {
+      "name": "LangChain4j",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/langchain4j/langchain4j",
+      "repo": "langchain4j/langchain4j",
+      "description": "The leading Java/Kotlin LLM integration library."
+    },
+    {
+      "name": "Langroid",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/langroid/langroid",
+      "repo": "langroid/langroid",
+      "description": "Multi-agent LLM framework with a task-delegation architecture."
+    },
+    {
+      "name": "Laravel AI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/laravel/ai",
+      "repo": "laravel/ai",
+      "description": "The Laravel AI SDK provides a unified, expressive API for interacting with AI providers (OpenAI, Anthropic, Gemini)."
+    },
+    {
+      "name": "LazyLLM",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/LazyAGI/LazyLLM",
+      "repo": "LazyAGI/LazyLLM",
+      "description": "Chinese multi-agent framework with RAG pipeline support, easy tool integration, and model fine-tuning capabilities."
+    },
+    {
+      "name": "llama-cpp-agent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+      "repo": "Maximilian-Winter/llama-cpp-agent",
+      "description": "Llama-cpp-agent - Python framework designed for easy interaction with Large Language Models running on llama.cpp."
+    },
+    {
+      "name": "LLPhant",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/LLPhant/LLPhant",
+      "repo": "LLPhant/LLPhant",
+      "description": "PHP-native generative AI framework with LangChain-inspired abstractions for RAG, memory, and tool use."
+    },
+    {
+      "name": "Magentic",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/jackmpcollins/magentic",
+      "repo": "jackmpcollins/magentic",
+      "description": "Community Python library that uses decorators to seamlessly integrate LLMs as regular Python functions - including structured outputs, tool calls, and async support."
+    },
+    {
+      "name": "Marvin",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/PrefectHQ/marvin",
+      "repo": "PrefectHQ/marvin",
+      "description": "Marvin is a framework or SDK for building agent applications."
+    },
+    {
+      "name": "Mastra",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/mastra-ai/mastra",
+      "repo": "mastra-ai/mastra",
+      "description": "TypeScript-first AI application framework from the team behind Gatsby."
+    },
+    {
+      "name": "MetaGPT",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "repo": "FoundationAgents/MetaGPT",
+      "description": "Opinionated multi-agent software engineering harness with pre-built roles (ProductManager/Engineer/Architect)."
+    },
+    {
+      "name": "Microsoft Agent Framework",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "repo": "microsoft/agent-framework",
+      "description": "Successor to AutoGen (microsoft/autogen, now deprecated - see migration guide)."
+    },
+    {
+      "name": "Mirascope",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/Mirascope/mirascope",
+      "repo": "Mirascope/mirascope",
+      "description": "Minimalist Python anti-framework for LLM interactions that favors composable primitives over heavy abstractions."
+    },
+    {
+      "name": "MS-Agent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/modelscope/ms-agent",
+      "repo": "modelscope/ms-agent",
+      "description": "MS-Agent is ModelScope's lightweight framework for agentic execution."
+    },
+    {
+      "name": "NeMo Guardrails",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "repo": "NVIDIA-NeMo/Guardrails",
+      "description": "NeMo Guardrails - An open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems."
+    },
+    {
+      "name": "Open Agents",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "repo": "vercel-labs/open-agents",
+      "description": "Open source template/harness for building cloud agents from Vercel Labs."
+    },
+    {
+      "name": "Open Multi-Agent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "repo": "open-multi-agent/open-multi-agent",
+      "description": "TypeScript-native multi-agent orchestration framework."
+    },
+    {
+      "name": "OpenAI Agents SDK",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/openai/openai-agents-python",
+      "repo": "openai/openai-agents-python",
+      "description": "OpenAI's official production multi-agent orchestration framework and successor to OpenAI Swarm."
+    },
+    {
+      "name": "OpenAI Swarm",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/openai/swarm",
+      "repo": "openai/swarm",
+      "description": "Swarm is OpenAI's lightweight experimental multi-agent orchestration framework with minimal built-in persistence."
+    },
+    {
+      "name": "Ouroboros",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/Q00/ouroboros",
+      "repo": "Q00/ouroboros",
+      "description": "TypeScript/Python project that lets developers define agent behavior via structured specifications rather than freeform prompts - integrates with claude-code, codex-cli, and MCP."
+    },
+    {
+      "name": "OWL (CAMEL-AI)",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/camel-ai/owl",
+      "repo": "camel-ai/owl",
+      "description": "Opinionated, batteries-included multi-agent application from CAMEL-AI for real-world task automation."
+    },
+    {
+      "name": "page-agent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/alibaba/page-agent",
+      "repo": "alibaba/page-agent",
+      "description": "TypeScript library from Alibaba for natural-language control of web interfaces."
+    },
+    {
+      "name": "PocketFlow",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "repo": "The-Pocket/PocketFlow",
+      "description": "Minimal 100-line Python LLM framework using nested directed graphs for multi-step agent tasks."
+    },
+    {
+      "name": "Promptise Foundry",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/promptise-com/foundry",
+      "repo": "promptise-com/foundry",
+      "description": "Promptise Foundry (the foundation layer for agentic intelligence) is a batteries-included async Python framework."
+    },
+    {
+      "name": "Pydantic AI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "repo": "pydantic/pydantic-ai",
+      "description": "Production-grade Python agent framework from the Pydantic team leveraging type-safe structured outputs."
+    },
+    {
+      "name": "Qwen-Agent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "repo": "QwenLM/Qwen-Agent",
+      "description": "Qwen-Agent is Alibaba's official agent framework built on the Qwen model family, supporting function calling, MCP, RAG, and code interpretation."
+    },
+    {
+      "name": "Rasa",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/RasaHQ/rasa",
+      "repo": "RasaHQ/rasa",
+      "description": "Rasa is a mature open-source conversational AI harness with pluggable tracker stores and NLU backends."
+    },
+    {
+      "name": "Rig",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/0xPlaygrounds/rig",
+      "repo": "0xPlaygrounds/rig",
+      "description": "Rig - Rust framework for building modular and scalable LLM applications."
+    },
+    {
+      "name": "Rowboat",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "repo": "rowboatlabs/rowboat",
+      "description": "Open-source AI coworker with persistent memory and MCP (Model Context Protocol) tool support."
+    },
+    {
+      "name": "Semantic Kernel",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "repo": "microsoft/semantic-kernel",
+      "description": "Microsoft-backed open-source SDK for building AI agents and integrating LLMs into C#/.NET, Python, and Java codebases."
+    },
+    {
+      "name": "smolagents",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/huggingface/smolagents",
+      "repo": "huggingface/smolagents",
+      "description": "Hugging Face's minimal code-first agent framework that executes Python tool calls."
+    },
+    {
+      "name": "Spring AI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/spring-projects/spring-ai",
+      "repo": "spring-projects/spring-ai",
+      "description": "The official Spring Framework project for AI engineering in Java/JVM."
+    },
+    {
+      "name": "Spring AI Alibaba",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/alibaba/spring-ai-alibaba",
+      "repo": "alibaba/spring-ai-alibaba",
+      "description": "Production-ready agentic Java framework extending Spring AI with multi-agent orchestration, graph-based stateful workflows, HITL support, and a visual debugger."
+    },
+    {
+      "name": "Stakpak Agent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/stakpak/agent",
+      "repo": "stakpak/agent",
+      "description": "Stakpak Agent - open source agent that lives on your machines 24/7 and keeps your apps running (Ship your code, on autopilot)."
+    },
+    {
+      "name": "Strands Agents",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "repo": "strands-agents/harness-sdk",
+      "description": "Supports Amazon Bedrock, OpenAI, Anthropic, Ollama, and LiteLLM as model providers."
+    },
+    {
+      "name": "SuperAGI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/TransformerOptimus/SuperAGI",
+      "repo": "TransformerOptimus/SuperAGI",
+      "description": "Open-source autonomous agent platform with tool marketplace and vector memory."
+    },
+    {
+      "name": "TaskingAI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/TaskingAI/TaskingAI",
+      "repo": "TaskingAI/TaskingAI",
+      "description": "TaskingAI - The open source platform for AI-native application development."
+    },
+    {
+      "name": "TradingAgents",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "repo": "TauricResearch/TradingAgents",
+      "description": "Multi-agent LLM framework for financial trading built on LangGraph."
+    },
+    {
+      "name": "TypedAI",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/TrafficGuard/typedai",
+      "repo": "TrafficGuard/typedai",
+      "description": "TypedAI - TypeScript AI platform with AI chat, autonomous agents, software developer agents, chatbots and more."
+    },
+    {
+      "name": "Upsonic",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/Upsonic/Upsonic",
+      "repo": "Upsonic/Upsonic",
+      "description": "Python agent framework purpose-built for enterprise/fintech use cases with a client-server architecture."
+    },
+    {
+      "name": "Vercel AI SDK",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/vercel/ai",
+      "repo": "vercel/ai",
+      "description": "The Vercel AI SDK is a widely-adopted TypeScript toolkit for building AI-powered Next.js and Node.js applications."
+    },
+    {
+      "name": "VoltAgent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/VoltAgent/voltagent",
+      "repo": "VoltAgent/voltagent",
+      "description": "TypeScript-first AI agent engineering platform with observability-first design and visual debugging console."
+    },
+    {
+      "name": "AgentFS",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/tursodatabase/agentfs",
+      "repo": "tursodatabase/agentfs",
+      "description": "SDKs ship for TypeScript, Python, and Rust; a CLI mounts AgentFS via FUSE (Linux) or NFS (macOS)."
+    },
+    {
+      "name": "Agno",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/agno-agi/agno",
+      "repo": "agno-agi/agno",
+      "description": "Agno is a runtime or orchestration layer for agent applications."
+    },
+    {
+      "name": "AIOS",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/agiresearch/AIOS",
+      "repo": "agiresearch/AIOS",
+      "description": "AIOS - AI Agent Operating System."
+    },
+    {
+      "name": "Astron Agent",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/iflytek/astron-agent",
+      "repo": "iflytek/astron-agent",
+      "description": "Astron Agent is iFlyTek's enterprise agentic platform, a major player in the Chinese enterprise AI market."
+    },
+    {
+      "name": "Auto Deep Researcher 24x7",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7",
+      "repo": "Xiangyue-Zhang/auto-deep-researcher-24x7",
+      "description": "Auto Deep Researcher 24x7 is an autonomous AI agent that runs deep learning experiments continuously (24/7) using a Leader-Worker architecture with constant-size memory."
+    },
+    {
+      "name": "AutoGPT",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "repo": "Significant-Gravitas/AutoGPT",
+      "description": "The original autonomous agent harness."
+    },
+    {
+      "name": "AX (Agent Executor)",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/google/ax",
+      "repo": "google/ax",
+      "description": "AX (Agent eXecutor) is Google's open source distributed agent runtime, written in Go and licensed Apache-2.0."
+    },
+    {
+      "name": "Back4app",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/parse-community/parse-server",
+      "repo": "parse-community/parse-server",
+      "description": "Back4app is a managed backend-as-a-service (BaaS) platform built on top of the open-source Parse Platform (parse-community/parse-server)."
+    },
+    {
+      "name": "Bindu",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/GetBindu/Bindu",
+      "repo": "GetBindu/Bindu",
+      "description": "Runtime layer that turns any AI agent into an interoperable, observable, composable microservice."
+    },
+    {
+      "name": "Burr",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/apache/burr",
+      "repo": "apache/burr",
+      "description": "Apache-incubated Python framework for building decision-making applications (chatbots, agents, simulations) with first-class persistence and tracing."
+    },
+    {
+      "name": "Chidori",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/ThousandBirdsInc/chidori",
+      "repo": "ThousandBirdsInc/chidori",
+      "description": "Unlike most Python/TypeScript agent frameworks, Chidori emphasizes reactive programming, time-travel debugging, and durable orchestration as first-class runtime primitives."
+    },
+    {
+      "name": "Claude Agent SDK",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "repo": "anthropics/claude-agent-sdk-python",
+      "description": "Anthropic's official SDK for building production AI agents with Claude Code capabilities."
+    },
+    {
+      "name": "Conductor",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/conductor-oss/conductor",
+      "repo": "conductor-oss/conductor",
+      "description": "Open-source workflow orchestration engine originally built at Netflix."
+    },
+    {
+      "name": "ControlFlow",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/prefect-archive/ControlFlow",
+      "repo": "prefect-archive/ControlFlow",
+      "description": "Workflow state rides on Prefect's own runtime."
+    },
+    {
+      "name": "Convex",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/get-convex/convex-backend",
+      "repo": "get-convex/convex-backend",
+      "description": "Convex is the open-source reactive database for app developers, now positioned as the backend building blocks for your agents."
+    },
+    {
+      "name": "CUA (Computer-Use Agent)",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/trycua/cua",
+      "repo": "trycua/cua",
+      "description": "Open-source Computer-Use Agent infrastructure - sandboxes, SDKs, and benchmarks for agents that control macOS/Windows desktops."
+    },
+    {
+      "name": "CubeSandbox",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "repo": "TencentCloud/CubeSandbox",
+      "description": "CubeSandbox is a high-performance, instant, concurrent, secure, and lightweight sandbox service for AI agents built by Tencent Cloud on RustVMM and KVM."
+    },
+    {
+      "name": "Dapr",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/dapr/dapr",
+      "repo": "dapr/dapr",
+      "description": "CNCF-graduated, vendor-neutral distributed application runtime providing building blocks for microservices and AI agents."
+    },
+    {
+      "name": "Dapr Agents",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/dapr/dapr-agents",
+      "repo": "dapr/dapr-agents",
+      "description": "Agent framework built on Dapr's durable workflow and actor model."
+    },
+    {
+      "name": "dimos",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/dimensionalOS/dimos",
+      "repo": "dimensionalOS/dimos",
+      "description": "Agentic operating system for physical hardware (humanoids, drones) supporting multi-agent coordination."
+    },
+    {
+      "name": "Dora",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/dora-rs/dora",
+      "repo": "dora-rs/dora",
+      "description": "Dora (Dataflow-Oriented Robotic Architecture) is middleware for building AI-based robotic applications."
+    },
+    {
+      "name": "E2B",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/e2b-dev/E2B",
+      "repo": "e2b-dev/E2B",
+      "description": "Cloud sandbox infrastructure for AI agents - provides secure isolated execution environments for AI-generated code."
+    },
+    {
+      "name": "Eve",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/vercel/eve",
+      "repo": "vercel/eve",
+      "description": "Eve (The Framework for Building Agents) is Vercel's filesystem-first framework for durable AI agents, in public beta as of June 2026."
+    },
+    {
+      "name": "Gastown",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/gastownhall/gastown",
+      "repo": "gastownhall/gastown",
+      "description": "Each agent has its own context window and state; Gastown manages routing, scheduling, and inter-agent communication."
+    },
+    {
+      "name": "Hatchet",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "repo": "hatchet-dev/hatchet",
+      "description": "Hatchet - Orchestration engine for background tasks, AI agents, and durable workflows."
+    },
+    {
+      "name": "Helix",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/helixml/helix",
+      "repo": "helixml/helix",
+      "description": "Private agent fleet runtime that provisions GPU-accelerated compute for each agent, supporting Claude, Codex, Gemini, and open models on a self-hosted AI stack."
+    },
+    {
+      "name": "HelixDB",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/HelixDB/helix-db",
+      "repo": "HelixDB/helix-db",
+      "description": "HelixDB is an open-source (Apache 2.0) OLTP graph-vector database built from scratch in Rust, positioned as a graph-vector database for knowledge graphs and AI memory."
+    },
+    {
+      "name": "holaOS",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "repo": "holaboss-ai/holaOS",
+      "description": "Open agent computer desktop harness (Electron, TypeScript) for any digital work - bundles an agent runtime with memory, MCP tool integration, and proactive workflows."
+    },
+    {
+      "name": "InsForge",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/InsForge/InsForge",
+      "repo": "InsForge/InsForge",
+      "description": "Open-source backend platform for agentic coding."
+    },
+    {
+      "name": "Kitaru",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/zenml-io/kitaru",
+      "repo": "zenml-io/kitaru",
+      "description": "Kitaru is a self-hosted, framework-agnostic runtime for production AI agents."
+    },
+    {
+      "name": "LangGraph",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "repo": "langchain-ai/langgraph",
+      "description": "Durable execution runtime from the LangChain team; the primary way LangChain users build stateful, multi-step agents."
+    },
+    {
+      "name": "Letta",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/letta-ai/letta",
+      "repo": "letta-ai/letta",
+      "description": "Stateful agent execution runtime (formerly MemGPT) with persistent, editable memory architecture."
+    },
+    {
+      "name": "LocalAGI",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/mudler/LocalAGI",
+      "repo": "mudler/LocalAGI",
+      "description": "LocalAGI is a self-hostable agent platform and OpenAI Responses API replacement."
+    },
+    {
+      "name": "Memobase",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/memodb-io/memobase",
+      "repo": "memodb-io/memobase",
+      "description": "Memobase is a user-profile-based long-term memory layer for LLM chatbots - virtual companions, education, personalized assistants."
+    },
+    {
+      "name": "Microsoft Promptflow",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/microsoft/promptflow",
+      "repo": "microsoft/promptflow",
+      "description": "Microsoft's LLM app development toolkit for building, evaluating, and deploying prompt flows."
+    },
+    {
+      "name": "MLflow",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/mlflow/mlflow",
+      "repo": "mlflow/mlflow",
+      "description": "Open source AI engineering platform for experiment tracking, evaluation, tracing, prompt management, and model deployment."
+    },
+    {
+      "name": "Moltis",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/moltis-org/moltis",
+      "repo": "moltis-org/moltis",
+      "description": "Moltis is a local-first persistent agent server in Rust."
+    },
+    {
+      "name": "NanoClaw",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/nanocoai/nanoclaw",
+      "repo": "nanocoai/nanoclaw",
+      "description": "NanoClaw is a lightweight containerized AI assistant runtime that runs agents in isolated Linux containers for security."
+    },
+    {
+      "name": "NVIDIA OpenShell",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "repo": "NVIDIA/OpenShell",
+      "description": "Sandboxed execution runtime for autonomous AI agents from NVIDIA."
+    },
+    {
+      "name": "Omnigent",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "repo": "omnigent-ai/omnigent",
+      "description": "Open-source meta-harness for orchestrating multiple AI coding agents (Claude Code, Codex, Cursor, OpenCode, Hermes, Gemini, custom)."
+    },
+    {
+      "name": "OpenFang",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/RightNow-AI/openfang",
+      "repo": "RightNow-AI/openfang",
+      "description": "OpenFang is an open-source Agent Operating System built in Rust (~137K LOC, 14 crates, single binary)."
+    },
+    {
+      "name": "OpenViking",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/volcengine/OpenViking",
+      "repo": "volcengine/OpenViking",
+      "description": "OpenViking is a runtime or orchestration layer for agent applications."
+    },
+    {
+      "name": "Pulumi",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/pulumi/pulumi",
+      "repo": "pulumi/pulumi",
+      "description": "Pulumi is an infrastructure-as-code platform that sits outside the AI framework taxonomy."
+    },
+    {
+      "name": "RD-Agent",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/microsoft/RD-Agent",
+      "repo": "microsoft/RD-Agent",
+      "description": "Microsoft research project for automating data-driven R&D cycles with LLM-assisted data processing, model building, and evaluation."
+    },
+    {
+      "name": "Ruflo",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/ruvnet/ruflo",
+      "repo": "ruvnet/ruflo",
+      "description": "Agent orchestration platform for Claude."
+    },
+    {
+      "name": "RushDB",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/rush-db/rushdb",
+      "repo": "rush-db/rushdb",
+      "description": "RushDB is a runtime or orchestration layer for agent applications."
+    },
+    {
+      "name": "Skyvern",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "repo": "Skyvern-AI/skyvern",
+      "description": "Skyvern automates browser-based workflows using AI vision and LLMs instead of brittle CSS selectors."
+    },
+    {
+      "name": "Solace Agent Mesh",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/SolaceLabs/solace-agent-mesh",
+      "repo": "SolaceLabs/solace-agent-mesh",
+      "description": "Uses Solace's messaging/event-streaming infrastructure to connect AI agents with real-world data sources, enabling complex multi-step workflows via pub/sub patterns."
+    },
+    {
+      "name": "Taipy",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/avaiga/taipy",
+      "repo": "avaiga/taipy",
+      "description": "Taipy provides reactive UI components, task orchestration (DAG-based scenarios), and data node abstractions for building data+AI apps."
+    },
+    {
+      "name": "Temporal",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/temporalio/temporal",
+      "repo": "temporalio/temporal",
+      "description": "Temporal is a durable workflow execution engine increasingly used as the persistence substrate for long-running AI agents and pipelines."
+    },
+    {
+      "name": "TensorZero",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "repo": "tensorzero/tensorzero",
+      "description": "LLM gateway and optimization runtime built in Rust."
+    },
+    {
+      "name": "Trigger.dev",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/triggerdotdev/trigger.dev",
+      "repo": "triggerdotdev/trigger.dev",
+      "description": "Trigger.dev is a leading TypeScript-first durable execution platform for background jobs and AI workflows."
+    },
+    {
+      "name": "Zep",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/getzep/zep",
+      "repo": "getzep/zep",
+      "description": "Zep is a purpose-built long-term memory runtime for AI agents with a knowledge-graph-backed memory architecture."
+    },
+    {
+      "name": "ZeroClaw",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw",
+      "repo": "zeroclaw-labs/zeroclaw",
+      "description": "ZeroClaw is a fast, small, fully autonomous AI personal assistant infrastructure written in Rust."
+    },
+    {
+      "name": "Zerolang",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/vercel-labs/zerolang",
+      "repo": "vercel-labs/zerolang",
+      "description": "Zerolang (the programming language for agents) is an experimental Vercel Labs project: a graph-native language where the semantic graph (zero.graph) is the program database."
+    },
+    {
+      "name": "Cognee",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/topoteretes/cognee",
+      "repo": "topoteretes/cognee",
+      "description": "Knowledge engine for AI agent memory using knowledge graphs -, active weekly development (trending Apr 2026)."
+    },
+    {
+      "name": "Cognita",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/truefoundry/cognita",
+      "repo": "truefoundry/cognita",
+      "description": "Open-source modular RAG framework with a web UI."
+    },
+    {
+      "name": "ContextGem",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/shcherbak-ai/contextgem",
+      "repo": "shcherbak-ai/contextgem",
+      "description": "Positioned alongside Unstructured, MegaParse, and PageIndex in the document-processing/extraction layer."
+    },
+    {
+      "name": "DeepWiki Open",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open",
+      "repo": "AsyncFuncAI/deepwiki-open",
+      "description": "DeepWiki Open is an open-source AI-powered wiki generator for GitHub, GitLab, and Bitbucket repositories."
+    },
+    {
+      "name": "DocArray",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/docarray/docarray",
+      "repo": "docarray/docarray",
+      "description": "Multimodal data representation library for AI pipelines with pluggable document store backends."
+    },
+    {
+      "name": "GraphRAG",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/microsoft/graphrag",
+      "repo": "microsoft/graphrag",
+      "description": "Builds a knowledge graph from source documents using LLMs, enabling global and local search queries that traverse entity relationships."
+    },
+    {
+      "name": "Haystack",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/deepset-ai/haystack",
+      "repo": "deepset-ai/haystack",
+      "description": "Production-grade NLP/RAG framework from deepset."
+    },
+    {
+      "name": "Jina AI",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/jina-ai/serve",
+      "repo": "jina-ai/serve",
+      "description": "Neural search and embedding framework by Jina AI."
+    },
+    {
+      "name": "LightRAG",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "repo": "HKUDS/LightRAG",
+      "description": "LightRAG is a graph-based RAG framework combining knowledge graphs with vector retrieval."
+    },
+    {
+      "name": "LlamaIndex",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/run-llama/llama_index",
+      "repo": "run-llama/llama_index",
+      "description": "Major RAG and data framework; strong in enterprise knowledge retrieval use cases."
+    },
+    {
+      "name": "Local Deep Research",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "repo": "LearningCircuit/local-deep-research",
+      "description": "LLM-powered deep research tool achieving ~95% on SimpleQA benchmarks."
+    },
+    {
+      "name": "Local Deep Researcher",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/langchain-ai/local-deep-researcher",
+      "repo": "langchain-ai/local-deep-researcher",
+      "description": "Local Deep Researcher is a fully local web research and report-writing assistant built on LangGraph."
+    },
+    {
+      "name": "LocalGPT",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/PromtEngineer/localGPT",
+      "repo": "PromtEngineer/localGPT",
+      "description": "Local RAG application for private document Q&A."
+    },
+    {
+      "name": "PageIndex",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "repo": "VectifyAI/PageIndex",
+      "description": "Vectorless RAG framework that builds hierarchical tree indexes over PDFs or Markdown and navigates them with LLM reasoning."
+    },
+    {
+      "name": "PrivateGPT",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/zylon-ai/private-gpt",
+      "repo": "zylon-ai/private-gpt",
+      "description": "PrivateGPT supports retrieval, knowledge, or grounding workflows for agent applications."
+    },
+    {
+      "name": "RAG-Anything",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "repo": "HKUDS/RAG-Anything",
+      "description": "Handles diverse content types including text, images, tables, equations, and charts through a unified retrieval interface."
+    },
+    {
+      "name": "Ragent",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/nageoffer/ragent",
+      "repo": "nageoffer/ragent",
+      "description": "Enterprise-grade Agentic RAG platform built with Spring Boot 3 and Java 17."
+    },
+    {
+      "name": "ScrapeGraphAI",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/scrapegraphai/scrapegraph-ai",
+      "repo": "scrapegraphai/scrapegraph-ai",
+      "description": "AI-powered web scraping pipeline framework using LLMs to extract structured data."
+    },
+    {
+      "name": "txtai",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/neuml/txtai",
+      "repo": "neuml/txtai",
+      "description": "All-in-one embeddings database, LLM orchestration, and semantic search framework."
+    },
+    {
+      "name": "Vanna AI",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/vanna-ai/vanna",
+      "repo": "vanna-ai/vanna",
+      "description": "Text-to-SQL framework using RAG (Retrieval-Augmented Generation)."
+    },
+    {
+      "name": "WeKnora",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/Tencent/WeKnora",
+      "repo": "Tencent/WeKnora",
+      "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using the RAG paradigm."
+    },
+    {
+      "name": "WrenAI",
+      "category": "RAG / knowledge system",
+      "url": "https://github.com/Canner/WrenAI",
+      "repo": "Canner/WrenAI",
+      "description": "WrenAI lets users query any database in natural language and generate charts/dashboards."
+    },
+    {
+      "name": "A-MEM",
+      "category": "Memory / context system",
+      "url": "https://github.com/agiresearch/A-mem",
+      "repo": "agiresearch/A-mem",
+      "description": "Two related repos exist: agiresearch/A-mem and WujiangXu/AgenticMemory."
+    },
+    {
+      "name": "Agentic Context Engine",
+      "category": "Memory / context system",
+      "url": "https://github.com/kayba-ai/agentic-context-engine",
+      "repo": "kayba-ai/agentic-context-engine",
+      "description": "Company-led (Kayba) with a hosted commercial offering adjacent to the OSS core."
+    },
+    {
+      "name": "Agentic Stack",
+      "category": "Memory / context system",
+      "url": "https://github.com/codejunkie99/agentic-stack",
+      "repo": "codejunkie99/agentic-stack",
+      "description": "Includes a local data layer for monitoring harness activity, cron runs, token/cost estimates, and dashboard exports."
+    },
+    {
+      "name": "Aperant",
+      "category": "Memory / context system",
+      "url": "https://github.com/AndyMik90/Aperant",
+      "repo": "AndyMik90/Aperant",
+      "description": "Aperant (formerly Auto Claude) is an autonomous multi-agent coding framework with Kanban-based task planning and validation."
+    },
+    {
+      "name": "Archon",
+      "category": "Memory / context system",
+      "url": "https://github.com/coleam00/Archon",
+      "repo": "coleam00/Archon",
+      "description": "Archon is an AI agent that builds other AI agents by generating and iterating on complete agent codebases."
+    },
+    {
+      "name": "Beads",
+      "category": "Memory / context system",
+      "url": "https://github.com/gastownhall/beads",
+      "repo": "gastownhall/beads",
+      "description": "Beads is a Go-based memory upgrade layer for coding agents."
+    },
+    {
+      "name": "ByteRover",
+      "category": "Memory / context system",
+      "url": "https://github.com/campfirein/byterover-cli",
+      "repo": "campfirein/byterover-cli",
+      "description": "ByteRover CLI (brv) - portable memory layer for autonomous coding agents (formerly Cipher)."
+    },
+    {
+      "name": "Craft Agents",
+      "category": "Memory / context system",
+      "url": "https://github.com/craft-ai-agents/craft-agents-oss",
+      "repo": "craft-ai-agents/craft-agents-oss",
+      "description": "Opinionated desktop agent harness built by Craft (craft.do), the document editor company."
+    },
+    {
+      "name": "DB-GPT",
+      "category": "Memory / context system",
+      "url": "https://github.com/eosphoros-ai/DB-GPT",
+      "repo": "eosphoros-ai/DB-GPT",
+      "description": "Open-source agentic AI data assistant targeting AI + Data product builders."
+    },
+    {
+      "name": "Dexter",
+      "category": "Memory / context system",
+      "url": "https://github.com/virattt/dexter",
+      "repo": "virattt/dexter",
+      "description": "Autonomous agent for deep financial research."
+    },
+    {
+      "name": "Dust",
+      "category": "Memory / context system",
+      "url": "https://github.com/dust-tt/dust",
+      "repo": "dust-tt/dust",
+      "description": "Hosted multi-agent platform for enterprises to build custom AI agents that automate internal workflows."
+    },
+    {
+      "name": "Emdash",
+      "category": "Memory / context system",
+      "url": "https://github.com/generalaction/emdash",
+      "repo": "generalaction/emdash",
+      "description": "Open-source agentic development environment for running multiple coding agents in parallel."
+    },
+    {
+      "name": "Engram",
+      "category": "Memory / context system",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "repo": "Gentleman-Programming/engram",
+      "description": "Engram - persistent memory system for AI coding agents, agent-agnostic."
+    },
+    {
+      "name": "EverOS",
+      "category": "Memory / context system",
+      "url": "https://github.com/EverMind-AI/EverOS",
+      "repo": "EverMind-AI/EverOS",
+      "description": "EverOS - memory-layer framework for building, evaluating, and integrating long-term memory for self-evolving agents."
+    },
+    {
+      "name": "FinRobot",
+      "category": "Memory / context system",
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "repo": "AI4Finance-Foundation/FinRobot",
+      "description": "FinRobot is an open-source AI agent platform for financial analysis using LLMs, developed by the AI4Finance Foundation (an open-source community organization)."
+    },
+    {
+      "name": "GBrain",
+      "category": "Memory / context system",
+      "url": "https://github.com/garrytan/gbrain",
+      "repo": "garrytan/gbrain",
+      "description": "Self-wiring knowledge graph and brain for AI agents."
+    },
+    {
+      "name": "GPT-Researcher",
+      "category": "Memory / context system",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "repo": "assafelovic/gpt-researcher",
+      "description": "GPT-Researcher is a batteries-included autonomous research agent that retrieves, synthesizes, and persists research outputs."
+    },
+    {
+      "name": "Graphiti",
+      "category": "Memory / context system",
+      "url": "https://github.com/getzep/graphiti",
+      "repo": "getzep/graphiti",
+      "description": "Real-time knowledge graph framework for AI agents by Zep."
+    },
+    {
+      "name": "Hive",
+      "category": "Memory / context system",
+      "url": "https://github.com/aden-hive/hive",
+      "repo": "aden-hive/hive",
+      "description": "Explicitly self-describes as a Multi-Agent Harness for Production AI."
+    },
+    {
+      "name": "Honcho",
+      "category": "Memory / context system",
+      "url": "https://github.com/plastic-labs/honcho",
+      "repo": "plastic-labs/honcho",
+      "description": "Honcho provides memory or context management for agent applications."
+    },
+    {
+      "name": "Khoj",
+      "category": "Memory / context system",
+      "url": "https://github.com/khoj-ai/khoj",
+      "repo": "khoj-ai/khoj",
+      "description": "Supports RAG over personal notes (Obsidian, Notion, email, etc.), persistent agent memory, and web search."
+    },
+    {
+      "name": "Lagent",
+      "category": "Memory / context system",
+      "url": "https://github.com/InternLM/lagent",
+      "repo": "InternLM/lagent",
+      "description": "Lagent provides clean abstractions for agent workflows including tool calling, memory, and multi-agent coordination."
+    },
+    {
+      "name": "LangMem",
+      "category": "Memory / context system",
+      "url": "https://github.com/langchain-ai/langmem",
+      "repo": "langchain-ai/langmem",
+      "description": "Memory tools (create_manage_memory_tool, create_search_memory_tool) are designed to be added to any LangGraph agent via create_react_agent."
+    },
+    {
+      "name": "LaVague",
+      "category": "Memory / context system",
+      "url": "https://github.com/lavague-ai/LaVague",
+      "repo": "lavague-ai/LaVague",
+      "description": "LaVague enables building web automation agents using natural language instructions and vision models."
+    },
+    {
+      "name": "LiveKit Agents",
+      "category": "Memory / context system",
+      "url": "https://github.com/livekit/agents",
+      "repo": "livekit/agents",
+      "description": "Framework for building real-time voice AI agents on WebRTC infrastructure (LiveKit)."
+    },
+    {
+      "name": "mem0",
+      "category": "Memory / context system",
+      "url": "https://github.com/mem0ai/mem0",
+      "repo": "mem0ai/mem0",
+      "description": "Dedicated memory layer for AI applications; adds persistent, personalized memory across conversations and agents."
+    },
+    {
+      "name": "memary",
+      "category": "Memory / context system",
+      "url": "https://github.com/kingjulio8238/memary",
+      "repo": "kingjulio8238/memary",
+      "description": "Memary is an open-source memory layer for autonomous agents, providing episodic, semantic, and profile memory capabilities."
+    },
+    {
+      "name": "MemMachine",
+      "category": "Memory / context system",
+      "url": "https://github.com/MemMachine/MemMachine",
+      "repo": "MemMachine/MemMachine",
+      "description": "MemMachine - universal memory layer for AI agents, providing scalable, extensible, and interoperable memory storage and retrieval."
+    },
+    {
+      "name": "Memoir",
+      "category": "Memory / context system",
+      "url": "https://github.com/zhangfengcdt/memoir",
+      "repo": "zhangfengcdt/memoir",
+      "description": "Alpha-stage semantic memory framework for AI agents with a Git-like versioning model (branch / commit / merge / rollback on memory stores)."
+    },
+    {
+      "name": "Memori",
+      "category": "Memory / context system",
+      "url": "https://github.com/MemoriLabs/Memori",
+      "repo": "MemoriLabs/Memori",
+      "description": "LLM- and framework-agnostic Python + TypeScript SDKs."
+    },
+    {
+      "name": "MemoryOS",
+      "category": "Memory / context system",
+      "url": "https://github.com/BAI-LAB/MemoryOS",
+      "repo": "BAI-LAB/MemoryOS",
+      "description": "Architecture borrows from OS memory management: hierarchical short-term / mid-term / long-term persona memory with four core modules - Storage, Updating, Retrieval, Generation."
+    },
+    {
+      "name": "MemOS",
+      "category": "Memory / context system",
+      "url": "https://github.com/MemTensor/MemOS",
+      "repo": "MemTensor/MemOS",
+      "description": "MemOS (Memory Operating System) is a framework for persistent skill and context memory in LLM and agent systems."
+    },
+    {
+      "name": "MemPalace",
+      "category": "Memory / context system",
+      "url": "https://github.com/MemPalace/mempalace",
+      "repo": "MemPalace/mempalace",
+      "description": "MemPalace - The best-benchmarked open-source AI memory system."
+    },
+    {
+      "name": "Memsearch",
+      "category": "Memory / context system",
+      "url": "https://github.com/zilliztech/memsearch",
+      "repo": "zilliztech/memsearch",
+      "description": ", created Feb 2026 - rapid early growth."
+    },
+    {
+      "name": "memU",
+      "category": "Memory / context system",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "repo": "NevaMind-AI/memU",
+      "description": "MemU is a memory framework for 24/7 proactive agents built by NevaMind AI, positioned as the OpenClaw alternative."
+    },
+    {
+      "name": "Memvid",
+      "category": "Memory / context system",
+      "url": "https://github.com/memvid/memvid",
+      "repo": "memvid/memvid",
+      "description": "Memory layer for AI agents that replaces complex RAG pipelines with a serverless, single-file memory layer designed for instant retrieval and long-term memory."
+    },
+    {
+      "name": "ML Intern",
+      "category": "Memory / context system",
+      "url": "https://github.com/huggingface/ml-intern",
+      "repo": "huggingface/ml-intern",
+      "description": "ML Intern - an open-source ML engineer agent from Hugging Face that reads papers, trains models, and ships ML models."
+    },
+    {
+      "name": "OGX (formerly Llama Stack)",
+      "category": "Memory / context system",
+      "url": "https://github.com/ogx-ai/ogx",
+      "repo": "ogx-ai/ogx",
+      "description": "OGX is the rebrand of Meta's Llama Stack - announced 2026-04-30 with the blog post From Llama Stack to OGX."
+    },
+    {
+      "name": "Open Interpreter",
+      "category": "Memory / context system",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "repo": "openinterpreter/openinterpreter",
+      "description": "Open Interpreter is one of the largest open-source AI agent harnesses, widely used for local code execution and computer control."
+    },
+    {
+      "name": "OpenAgents",
+      "category": "Memory / context system",
+      "url": "https://github.com/xlang-ai/OpenAgents",
+      "repo": "xlang-ai/OpenAgents",
+      "description": "XLANG Lab (COLM 2024 paper)."
+    },
+    {
+      "name": "OpenClaw",
+      "category": "Memory / context system",
+      "url": "https://github.com/openclaw/openclaw",
+      "repo": "openclaw/openclaw",
+      "description": "Openclaw/openclaw is a consumer-grade AI personal assistant app that connects to messaging platforms (WhatsApp, Telegram, Slack, iMessage) via a local Gateway."
+    },
+    {
+      "name": "Osaurus",
+      "category": "Memory / context system",
+      "url": "https://github.com/osaurus-ai/osaurus",
+      "repo": "osaurus-ai/osaurus",
+      "description": "Because it targets on-device macOS usage, the memory/session layer is local by default."
+    },
+    {
+      "name": "Parlant",
+      "category": "Memory / context system",
+      "url": "https://github.com/emcie-co/parlant",
+      "repo": "emcie-co/parlant",
+      "description": "Developers define declarative guidelines that shape agent behavior without prompt engineering."
+    },
+    {
+      "name": "Pipecat",
+      "category": "Memory / context system",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "repo": "pipecat-ai/pipecat",
+      "description": "Open-source framework for building voice and multimodal conversational AI agents."
+    },
+    {
+      "name": "PraisonAI",
+      "category": "Memory / context system",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "repo": "MervinPraison/PraisonAI",
+      "description": "Self-reflection and self-reasoning multi-agent AI framework built on CrewAI and AutoGen, combining them with a YAML-based configuration layer."
+    },
+    {
+      "name": "RedPlanetHQ Core",
+      "category": "Memory / context system",
+      "url": "https://github.com/RedPlanetHQ/core",
+      "repo": "RedPlanetHQ/core",
+      "description": "AI butler agent harness (TypeScript/Remix stack, Node.js) that orchestrates personal productivity workflows."
+    },
+    {
+      "name": "Rivet",
+      "category": "Memory / context system",
+      "url": "https://github.com/Ironclad/rivet",
+      "repo": "Ironclad/rivet",
+      "description": "Rivet provides a node-based graph editor for building AI agent workflows, with both a visual interface and a programmatic TypeScript SDK."
+    },
+    {
+      "name": "Screenpipe",
+      "category": "Memory / context system",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "repo": "screenpipe/screenpipe",
+      "description": "Built primarily in Rust with TypeScript components."
+    },
+    {
+      "name": "Second Me",
+      "category": "Memory / context system",
+      "url": "https://github.com/mindverse/Second-Me",
+      "repo": "mindverse/Second-Me",
+      "description": "Second Me is a personal AI training and memory framework that lets users train a local AI model on their own data to create a persistent personal AI self."
+    },
+    {
+      "name": "STORM",
+      "category": "Memory / context system",
+      "url": "https://github.com/stanford-oval/storm",
+      "repo": "stanford-oval/storm",
+      "description": "Generates Wikipedia-style articles from internet research by conducting multi-perspective conversations and synthesizing results."
+    },
+    {
+      "name": "Suna",
+      "category": "Memory / context system",
+      "url": "https://github.com/kortix-ai/suna",
+      "repo": "kortix-ai/suna",
+      "description": "Open-source generalist AI agent harness with browser automation, file system, shell, and web action capabilities."
+    },
+    {
+      "name": "SuperDuper",
+      "category": "Memory / context system",
+      "url": "https://github.com/superduper-io/superduper",
+      "repo": "superduper-io/superduper",
+      "description": "Rebranded from SuperDuperDB to SuperDuper in late 2024; repo moved from superduperdb/superduperdb to superduper-io/superduper."
+    },
+    {
+      "name": "Supermemory",
+      "category": "Memory / context system",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "repo": "supermemoryai/supermemory",
+      "description": "Memory and context engine for AI agents."
+    },
+    {
+      "name": "Swarms",
+      "category": "Memory / context system",
+      "url": "https://github.com/kyegomez/swarms",
+      "repo": "kyegomez/swarms",
+      "description": "Designed for production deployment of large agent fleets."
+    },
+    {
+      "name": "Tambo",
+      "category": "Memory / context system",
+      "url": "https://github.com/tambo-ai/tambo",
+      "repo": "tambo-ai/tambo",
+      "description": "Tambo is a generative UI SDK for React that connects UI components to AI agents with streaming, state management, and MCP integration."
+    },
+    {
+      "name": "TaskWeaver",
+      "category": "Memory / context system",
+      "url": "https://github.com/microsoft/TaskWeaver",
+      "repo": "microsoft/TaskWeaver",
+      "description": "Code-first agent framework for data analytics - from Microsoft Research."
+    },
+    {
+      "name": "TEN Framework",
+      "category": "Memory / context system",
+      "url": "https://github.com/TEN-framework/ten-framework",
+      "repo": "TEN-framework/ten-framework",
+      "description": "TEN (The Extension Network) provides a real-time, low-latency multimodal agent runtime for voice, video, and text interactions."
+    },
+    {
+      "name": "TencentDB Agent Memory",
+      "category": "Memory / context system",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory provides memory or context management for agent applications."
+    },
+    {
+      "name": "uAgents",
+      "category": "Memory / context system",
+      "url": "https://github.com/fetchai/uAgents",
+      "repo": "fetchai/uAgents",
+      "description": "Agents persist state using a local storage backend."
+    },
+    {
+      "name": "Activepieces",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/activepieces/activepieces",
+      "repo": "activepieces/activepieces",
+      "description": "AI-native with MCP toolkit support, 280+ pre-built integrations, a no-code visual builder, and a TypeScript extension framework for custom pieces."
+    },
+    {
+      "name": "AgentGPT",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/reworkd/AgentGPT",
+      "repo": "reworkd/AgentGPT",
+      "description": "Web-based autonomous AI agent platform."
+    },
+    {
+      "name": "AnythingLLM",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "repo": "Mintplex-Labs/anything-llm",
+      "description": "AnythingLLM is a batteries-included local RAG application with pluggable vector and document store backends."
+    },
+    {
+      "name": "AstrBot",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "repo": "AstrBotDevs/AstrBot",
+      "description": "AI Agent assistant and development framework integrating multiple IM platforms (QQ, Discord, Telegram, WeChat)."
+    },
+    {
+      "name": "BiSheng",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/dataelement/bisheng",
+      "repo": "dataelement/bisheng",
+      "description": "Enterprise LLM DevOps platform (Chinese-market) -, actively maintained."
+    },
+    {
+      "name": "Botpress",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/botpress/botpress",
+      "repo": "botpress/botpress",
+      "description": "Open-source platform to build and deploy GPT/LLM-powered agents, chatbots, and voice assistants."
+    },
+    {
+      "name": "Casibase",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/the-open-agent/openagent",
+      "repo": "the-open-agent/openagent",
+      "description": "Casibase is an open-source enterprise-level AI knowledge base and MCP/A2A management platform."
+    },
+    {
+      "name": "Chainlit",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/Chainlit/chainlit",
+      "repo": "Chainlit/chainlit",
+      "description": "Python framework for building conversational AI applications with a built-in chat UI."
+    },
+    {
+      "name": "ChatDev",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "repo": "OpenBMB/ChatDev",
+      "description": "Multi-agent software development simulation framework from Tsinghua University / OpenBMB."
+    },
+    {
+      "name": "Cherry Studio",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "repo": "CherryHQ/cherry-studio",
+      "description": "Classified as Outside taxonomy - it is a packaged end-user desktop application (Electron/TypeScript) rather than a framework or runtime that other developers build on."
+    },
+    {
+      "name": "CowAgent",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "repo": "zhayujie/CowAgent",
+      "description": "Memory and knowledge are stored in SQLite with FTS5 for keyword search and NumPy-based cosine similarity for vector retrieval."
+    },
+    {
+      "name": "Coze Studio",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/coze-dev/coze-studio",
+      "repo": "coze-dev/coze-studio",
+      "description": "Open-source AI agent and workflow development platform from ByteDance/Coze."
+    },
+    {
+      "name": "DeepChat",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/thinkinaixyz/deepchat",
+      "repo": "thinkinaixyz/deepchat",
+      "description": "DeepChat is an open-source AI agent platform desktop application (Electron/TypeScript) that unifies models, tools, and agents."
+    },
+    {
+      "name": "DeerFlow",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/bytedance/deer-flow",
+      "repo": "bytedance/deer-flow",
+      "description": "Open-source long-horizon SuperAgent harness by ByteDance."
+    },
+    {
+      "name": "Dify",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/langgenius/dify",
+      "repo": "langgenius/dify",
+      "description": "The platform's architecture explicitly externalizes storage - users configure their own vector store, document store, and session/conversation persistence backends."
+    },
+    {
+      "name": "DocsGPT",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/arc53/DocsGPT",
+      "repo": "arc53/DocsGPT",
+      "description": "DocsGPT is a self-hosted document Q&A and enterprise search platform with built-in agent builder and multi-model support."
+    },
+    {
+      "name": "FastGPT",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/labring/FastGPT",
+      "repo": "labring/FastGPT",
+      "description": "Knowledge-base-powered LLM application platform built on RAG + workflow orchestration."
+    },
+    {
+      "name": "Flock",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/Onelevenvy/flock",
+      "repo": "Onelevenvy/flock",
+      "description": "Flock is a workflow-based low-code platform for rapidly building chatbots, RAG pipelines, and multi-agent teams."
+    },
+    {
+      "name": "Flowise",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "repo": "FlowiseAI/Flowise",
+      "description": "Drag-and-drop LLM app builder with broad connector ecosystem."
+    },
+    {
+      "name": "GoClaw",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/nextlevelbuilder/goclaw",
+      "repo": "nextlevelbuilder/goclaw",
+      "description": "GoClaw is a Go-based multi-agent gateway and platform derived from OpenClaw patterns."
+    },
+    {
+      "name": "Langflow",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/langflow-ai/langflow",
+      "repo": "langflow-ai/langflow",
+      "description": "Low-code visual builder for AI applications and multi-agent pipelines built on top of LangChain."
+    },
+    {
+      "name": "LibreChat",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "repo": "danny-avila/LibreChat",
+      "description": "Open-source ChatGPT-like platform supporting 30+ LLM providers (OpenAI, Claude, Gemini, local models)."
+    },
+    {
+      "name": "LobeChat",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/lobehub/lobehub",
+      "repo": "lobehub/lobehub",
+      "description": "LobeChat is one of the highest-starred open-source LLM chat platforms with a built-in knowledge base and RAG pipeline."
+    },
+    {
+      "name": "MaxKB",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/1Panel-dev/MaxKB",
+      "repo": "1Panel-dev/MaxKB",
+      "description": "MaxKB is the leading enterprise AI knowledge base platform in the Chinese developer ecosystem, with broad enterprise deployments and growing international adoption."
+    },
+    {
+      "name": "MiroThinker",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/MiroMindAI/MiroThinker",
+      "repo": "MiroMindAI/MiroThinker",
+      "description": "Opinionated deep research agent harness achieving top benchmark scores."
+    },
+    {
+      "name": "MLE-Agent",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/MLSysOps/MLE-agent",
+      "repo": "MLSysOps/MLE-agent",
+      "description": "MLE-Agent is a Python CLI-based AI pairing agent for machine learning engineers."
+    },
+    {
+      "name": "n8n",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/n8n-io/n8n",
+      "repo": "n8n-io/n8n",
+      "description": "Open-source workflow automation platform (400+ integrations) with a first-class AI/agent node cluster built on LangChain."
+    },
+    {
+      "name": "NocoBase",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/nocobase/nocobase",
+      "repo": "nocobase/nocobase",
+      "description": "NocoBase is an open-source AI + no-code platform for building business systems."
+    },
+    {
+      "name": "Onyx",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "repo": "onyx-dot-app/onyx",
+      "description": "Open-source enterprise search and AI assistant with RAG, document connectors, and chat (formerly Danswer)."
+    },
+    {
+      "name": "Open Notebook",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "repo": "lfnovo/open-notebook",
+      "description": "Open Notebook is an open-source NotebookLM-style research and note-taking harness."
+    },
+    {
+      "name": "Open WebUI",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/open-webui/open-webui",
+      "repo": "open-webui/open-webui",
+      "description": "Extensible self-hosted AI interface platform for model management, chat, tools, and local workflows."
+    },
+    {
+      "name": "OpenWork",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/different-ai/openwork",
+      "repo": "different-ai/openwork",
+      "description": "OpenWork is an open-source alternative to Claude Cowork built for teams, powered by opencode."
+    },
+    {
+      "name": "RAGFlow",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/infiniflow/ragflow",
+      "repo": "infiniflow/ragflow",
+      "description": "The system is architected around pluggable storage backends for both the vector index and the document/chunk store."
+    },
+    {
+      "name": "SillyTavern",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/SillyTavern/SillyTavern",
+      "repo": "SillyTavern/SillyTavern",
+      "description": "LLM frontend for power users."
+    },
+    {
+      "name": "Sim Studio",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/simstudioai/sim",
+      "repo": "simstudioai/sim",
+      "description": "Open-source AI agent workflow builder and simulation platform."
+    },
+    {
+      "name": "SkillFlaw",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/cwinux/skillflaw",
+      "repo": "cwinux/skillflaw",
+      "description": "Derived from the Langflow component model (the repo carries the lfx executor layout)."
+    },
+    {
+      "name": "WiseFlow",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/TeamWiseFlow/wiseflow",
+      "repo": "TeamWiseFlow/wiseflow",
+      "description": "Multi-agent RPA and information extraction system."
+    },
+    {
+      "name": "A2A (Agent2Agent Protocol)",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/a2aproject/A2A",
+      "repo": "a2aproject/A2A",
+      "description": "Agent-to-Agent (A2A) is an open protocol for inter-agent communication and interoperability."
+    },
+    {
+      "name": "AG-UI Protocol",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "repo": "ag-ui-protocol/ag-ui",
+      "description": "Open protocol and SDK for connecting AI agents to frontend applications."
+    },
+    {
+      "name": "Agentic",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/transitive-bullshit/agentic",
+      "repo": "transitive-bullshit/agentic",
+      "description": "Agentic - Your API Paid MCP."
+    },
+    {
+      "name": "Appwrite",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/appwrite/appwrite",
+      "repo": "appwrite/appwrite",
+      "description": "MariaDB is the alternative."
+    },
+    {
+      "name": "Arcade.dev",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/ArcadeAI/arcade-mcp",
+      "repo": "ArcadeAI/arcade-mcp",
+      "description": "Repo recently renamed from arcade-ai to arcade-mcp, reflecting a pivot toward the MCP ecosystem."
+    },
+    {
+      "name": "ByteChef",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/bytechefhq/bytechef",
+      "repo": "bytechefhq/bytechef",
+      "description": "Open-source AI agent orchestration and workflow automation platform (alternative to Zapier/n8n/Workato)."
+    },
+    {
+      "name": "Composio",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/ComposioHQ/composio",
+      "repo": "ComposioHQ/composio",
+      "description": "Composio provides 1000+ pre-built tool integrations and managed auth brokerage for AI agents."
+    },
+    {
+      "name": "crewAI Tools",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/crewAIInc/crewAI-tools",
+      "repo": "crewAIInc/crewAI-tools",
+      "description": "CrewAI Tools is the official tool library for the CrewAI multi-agent harness."
+    },
+    {
+      "name": "FastAPI MCP",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/tadata-org/fastapi_mcp",
+      "repo": "tadata-org/fastapi_mcp",
+      "description": "Automatically exposes FastAPI routes as MCP (Model Context Protocol) tools, enabling any FastAPI-based service to be used as an agent tool with zero boilerplate."
+    },
+    {
+      "name": "FastMCP",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "repo": "PrefectHQ/fastmcp",
+      "description": "Created by Jeremiah Lowin (Prefect founder), now maintained under PrefectHQ."
+    },
+    {
+      "name": "GenAI Toolbox",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "repo": "googleapis/mcp-toolbox",
+      "description": "GenAI Toolbox is Google's official open-source MCP server for AI-database connectivity, providing a standardized way for AI agents to query and operate on enterprise databases."
+    },
+    {
+      "name": "GitHub MCP Server",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/github/github-mcp-server",
+      "repo": "github/github-mcp-server",
+      "description": "Official MCP server that lets agents interact with GitHub repositories, issues, pull requests, code search, and actions."
+    },
+    {
+      "name": "Integuru",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/Integuru-AI/Integuru",
+      "repo": "Integuru-AI/Integuru",
+      "description": "AI agent that builds permissionless integrations by reverse engineering platforms' internal APIs."
+    },
+    {
+      "name": "Kestra",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/kestra-io/kestra",
+      "repo": "kestra-io/kestra",
+      "description": "YAML-based workflow definitions with a rich UI."
+    },
+    {
+      "name": "mcp-agent",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "repo": "lastmile-ai/mcp-agent",
+      "description": "Simple, composable framework for building agents using the Model Context Protocol (MCP)."
+    },
+    {
+      "name": "MCP Context Forge",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/IBM/mcp-context-forge",
+      "repo": "IBM/mcp-context-forge",
+      "description": "MCP Context Forge is an IBM-built AI gateway, registry, and proxy that sits in front of MCP, A2A, and REST/gRPC APIs."
+    },
+    {
+      "name": "MCP Framework",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/QuantGeekDev/mcp-framework",
+      "repo": "QuantGeekDev/mcp-framework",
+      "description": "Provides scaffolding, auto-discovery, and lifecycle management for building Model Context Protocol servers in TypeScript."
+    },
+    {
+      "name": "MCP-use",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "repo": "mcp-use/mcp-use",
+      "description": "MCP-use is a growing MCP framework providing a full-stack toolkit for building and connecting to MCP servers."
+    },
+    {
+      "name": "Mirage",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/strukto-ai/mirage",
+      "repo": "strukto-ai/mirage",
+      "description": "Python (mirage-ai) and TypeScript (@struktoai/mirage-) SDKs; FUSE-based mounts."
+    },
+    {
+      "name": "OpenSandbox",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "repo": "opensandbox-group/OpenSandbox",
+      "description": "Secure, fast, and extensible sandbox runtime for AI agents built by Alibaba."
+    },
+    {
+      "name": "QwenPaw",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "repo": "agentscope-ai/QwenPaw",
+      "description": "QwenPaw is an AgentScope/Qwen personal assistant harness from the Alibaba ecosystem."
+    },
+    {
+      "name": "Smithery.ai",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/smithery-ai/cli",
+      "repo": "smithery-ai/cli",
+      "description": "MCP server registry and marketplace enabling discovery and installation of Model Context Protocol servers."
+    },
+    {
+      "name": "Tavily",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/tavily-ai/tavily-python",
+      "repo": "tavily-ai/tavily-python",
+      "description": "Tavily is a search-and-extract API purpose-built for AI agents, widely used as a web-search tool in LangChain and LangGraph pipelines."
+    },
+    {
+      "name": "Tilde",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/tilderun/tilde-python-sdk",
+      "repo": "tilderun/tilde-python-sdk",
+      "description": "Transactional sandbox platform for safely running autonomous AI agents against production data."
+    },
+    {
+      "name": "Windmill",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/windmill-labs/windmill",
+      "repo": "windmill-labs/windmill",
+      "description": "Open-source developer platform for building internal tools, automations, and data pipelines - a developer-first alternative to n8n and Zapier."
+    },
+    {
+      "name": "Accomplish",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/accomplish-ai/coworker",
+      "repo": "accomplish-ai/coworker",
+      "description": "AccomplishTM is an open-source AI coworker that lives on the desktop."
+    },
+    {
+      "name": "Agent S",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/simular-ai/Agent-S",
+      "repo": "simular-ai/Agent-S",
+      "description": "Open GUI automation agent framework from Simular AI."
+    },
+    {
+      "name": "Aider",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/Aider-AI/aider",
+      "repo": "Aider-AI/aider",
+      "description": "AI pair programming tool for terminal-based code editing."
+    },
+    {
+      "name": "Augment Code",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/AugmentCode/augment-swebench-agent",
+      "repo": "AugmentCode/augment-swebench-agent",
+      "description": "The platform maintains long-term developer memory and preferences across sessions."
+    },
+    {
+      "name": "Browser Harness",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/browser-use/browser-harness",
+      "repo": "browser-use/browser-harness",
+      "description": "Browser Harness helps agents operate developer tools, browsers, desktops, or local workflows."
+    },
+    {
+      "name": "browser-use",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/browser-use/browser-use",
+      "repo": "browser-use/browser-use",
+      "description": "High-adoption Python library enabling AI agents to control browsers via Playwright."
+    },
+    {
+      "name": "BrowserOS",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/browseros-ai/BrowserOS",
+      "repo": "browseros-ai/BrowserOS",
+      "description": "BrowserOS is an emerging agentic browser platform combining Chromium with AI agent capabilities."
+    },
+    {
+      "name": "Bytebot",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/bytebot-ai/bytebot",
+      "repo": "bytebot-ai/bytebot",
+      "description": "Computer-use AI agent platform enabling browser automation and desktop interaction."
+    },
+    {
+      "name": "Chrome DevTools MCP",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools MCP helps agents operate developer tools, browsers, desktops, or local workflows."
+    },
+    {
+      "name": "Claude Task Master",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/eyaltoledano/claude-task-master",
+      "repo": "eyaltoledano/claude-task-master",
+      "description": "Claude Task Master helps agents operate developer tools, browsers, desktops, or local workflows."
+    },
+    {
+      "name": "Cline",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/cline/cline",
+      "repo": "cline/cline",
+      "description": "Cline helps agents operate developer tools, browsers, desktops, or local workflows."
+    },
+    {
+      "name": "Composio Agent Orchestrator",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/AgentWrapper/agent-orchestrator",
+      "repo": "AgentWrapper/agent-orchestrator",
+      "description": "Composio Agent Orchestrator - agentic orchestrator for parallel coding agents."
+    },
+    {
+      "name": "Continue",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/continuedev/continue",
+      "repo": "continuedev/continue",
+      "description": "Open-source AI code assistant extension for VS Code and JetBrains with pluggable context providers and indexing backends."
+    },
+    {
+      "name": "Devika",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/stitionai/devika",
+      "repo": "stitionai/devika",
+      "description": "Open-source agentic AI software engineer that understands high-level human instructions, breaks them into steps, and executes code using web search and terminal tools."
+    },
+    {
+      "name": "Factory",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/Factory-AI/factory",
+      "repo": "Factory-AI/factory",
+      "description": "Factory builds autonomous AI software engineering agents (Droids) that handle multi-step coding tasks across IDEs, CLI, GitHub Actions, Slack, and CI/CD pipelines."
+    },
+    {
+      "name": "Gemini CLI",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "repo": "google-gemini/gemini-cli",
+      "description": "Gemini CLI is Google's answer to Claude Code and Codex, providing an open-source AI agent in the terminal with MCP support and broad tool use."
+    },
+    {
+      "name": "Goose",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/aaif-goose/goose",
+      "repo": "aaif-goose/goose",
+      "description": "Goose is an extensible open-source AI coding agent from Block with plugin-based extensibility."
+    },
+    {
+      "name": "GPT Engineer",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/AntonOsika/gpt-engineer",
+      "repo": "AntonOsika/gpt-engineer",
+      "description": "AI coding agent harness that generates full codebases from prompts."
+    },
+    {
+      "name": "GPT Pilot",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/Pythagora-io/gpt-pilot",
+      "repo": "Pythagora-io/gpt-pilot",
+      "description": "AI developer agent that builds full applications step-by-step with human checkpoints."
+    },
+    {
+      "name": "gptme",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/gptme/gptme",
+      "repo": "gptme/gptme",
+      "description": "Terminal-based personal AI agent with local tool execution - code writing, terminal use, web browsing."
+    },
+    {
+      "name": "Kilo Code",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "repo": "Kilo-Org/kilocode",
+      "description": "Kilo Code is an all-in-one agentic engineering platform - an opinionated coding agent harness that spans code generation, task orchestration, and agent execution."
+    },
+    {
+      "name": "mini-swe-agent",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "repo": "SWE-agent/mini-swe-agent",
+      "description": "A radically simple (~100-line) coding agent sibling to SWE-agent, optimized for solving GitHub issues and command-line tasks with a minimal configuration surface."
+    },
+    {
+      "name": "Nanobrowser",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/nanobrowser/nanobrowser",
+      "repo": "nanobrowser/nanobrowser",
+      "description": "Nanobrowser is an open-source Chrome extension for AI-powered browser automation."
+    },
+    {
+      "name": "Opcode",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/winfunc/opcode",
+      "repo": "winfunc/opcode",
+      "description": "Opcode is a GUI desktop application and toolkit for managing Claude Code sessions."
+    },
+    {
+      "name": "Open-AutoGLM",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/zai-org/Open-AutoGLM",
+      "repo": "zai-org/Open-AutoGLM",
+      "description": "Open-AutoGLM helps agents operate developer tools, browsers, desktops, or local workflows."
+    },
+    {
+      "name": "open-swe",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/langchain-ai/open-swe",
+      "repo": "langchain-ai/open-swe",
+      "description": "Open-swe is an open-source asynchronous software engineering agent built on LangGraph."
+    },
+    {
+      "name": "OpenCode",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/opencode-ai/opencode",
+      "repo": "opencode-ai/opencode",
+      "description": "OpenCode is a Charm-maintained coding agent (similar to Aider/Cline) that runs in the terminal, supports MCP tools, and uses Claude/GPT."
+    },
+    {
+      "name": "OpenHands",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "repo": "OpenHands/OpenHands",
+      "description": "Open-source software development agent platform formerly known as OpenDevin; ConversationStore has only FileConversationStore."
+    },
+    {
+      "name": "PentAGI",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "repo": "vxcontrol/pentagi",
+      "description": "PentAGI is a fully autonomous AI agent system for penetration testing, capable of performing complex security assessments end-to-end."
+    },
+    {
+      "name": "Plandex",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/plandex-ai/plandex",
+      "repo": "plandex-ai/plandex",
+      "description": "Open-source AI coding agent designed for large, complex tasks."
+    },
+    {
+      "name": "Playwright MCP",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "repo": "microsoft/playwright-mcp",
+      "description": "Playwright MCP helps agents operate developer tools, browsers, desktops, or local workflows."
+    },
+    {
+      "name": "Refact",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/smallcloudai/refact",
+      "repo": "smallcloudai/refact",
+      "description": "Self-hosted AI coding agent with IDE plugin."
+    },
+    {
+      "name": "Serena",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/oraios/serena",
+      "repo": "oraios/serena",
+      "description": "MCP toolkit for coding agents with semantic code retrieval -, rapidly trending."
+    },
+    {
+      "name": "Stagehand",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/browserbase/stagehand",
+      "repo": "browserbase/stagehand",
+      "description": "Stagehand helps agents operate developer tools, browsers, desktops, or local workflows."
+    },
+    {
+      "name": "Steel Browser",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/steel-dev/steel-browser",
+      "repo": "steel-dev/steel-browser",
+      "description": "Steel Browser is an open-source Browser API for AI Agents & Apps - a batteries-included browser sandbox for automating the web."
+    },
+    {
+      "name": "superdesign",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/superdesigndev/superdesign",
+      "repo": "superdesigndev/superdesign",
+      "description": "AI product design agent - an opinionated harness for running design and coding tasks end-to-end via LLM agents."
+    },
+    {
+      "name": "SWE-agent",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "repo": "SWE-agent/SWE-agent",
+      "description": "SWE-agent is the leading autonomous software engineering agent, widely used in research and production CI pipelines."
+    },
+    {
+      "name": "Tabby",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/TabbyML/tabby",
+      "repo": "TabbyML/tabby",
+      "description": "Self-hosted AI coding assistant and GitHub Copilot alternative."
+    },
+    {
+      "name": "trae-agent",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/bytedance/trae-agent",
+      "repo": "bytedance/trae-agent",
+      "description": "Trae-agent is a ByteDance-built LLM-based agent for general purpose software engineering tasks."
+    },
+    {
+      "name": "UFO",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/microsoft/UFO",
+      "repo": "microsoft/UFO",
+      "description": "UFO (UI-Focused Agent) is a Microsoft Research project that enables LLM agents to interact with Windows desktop applications via GUI automation."
+    },
+    {
+      "name": "UI-TARS Desktop",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "repo": "bytedance/UI-TARS-desktop",
+      "description": "Maintained primarily by ByteDance engineers (top contributors all list ByteDance/ByteDance Seed)."
+    },
+    {
+      "name": "Vibe Kanban",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "repo": "BloopAI/vibe-kanban",
+      "description": "Vibe Kanban is an opinionated task orchestration harness for AI coding agents - notably Claude Code, Codex, and similar systems."
+    },
+    {
+      "name": "Adala",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/HumanSignal/Adala",
+      "repo": "HumanSignal/Adala",
+      "description": "Adala (Autonomous DAta Labeling Agent) is a framework for building autonomous data labeling and processing pipelines using LLMs as agents."
+    },
+    {
+      "name": "Agentset",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/agentset-ai/agentset",
+      "repo": "agentset-ai/agentset",
+      "description": "Agentset is an open-source RAG platform with built-in citations, deep research, 22+ file formats, partitions, and an MCP server."
+    },
+    {
+      "name": "Airbyte",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/airbytehq/airbyte",
+      "repo": "airbytehq/airbyte",
+      "description": "Airbyte supports data ingestion, pipelines, or MLOps workflows adjacent to agent systems."
+    },
+    {
+      "name": "Apache Airflow",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/apache/airflow",
+      "repo": "apache/airflow",
+      "description": "Airflow is the dominant workflow orchestration platform widely used for AI/ML data pipelines."
+    },
+    {
+      "name": "AReaL",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/areal-project/AReaL",
+      "repo": "areal-project/AReaL",
+      "description": "The RL Bridge for LLM-based agent applications - a reinforcement learning training/infra toolkit from Ant Group's inclusionAI initiative."
+    },
+    {
+      "name": "Builder.io",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/BuilderIO/builder",
+      "repo": "BuilderIO/builder",
+      "description": "Visual development platform for building AI-assisted web apps."
+    },
+    {
+      "name": "CocoIndex",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "repo": "cocoindex-io/cocoindex",
+      "description": "CocoIndex - incremental engine for long-horizon agents and data framework for AI."
+    },
+    {
+      "name": "Coral",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/withcoral/coral",
+      "repo": "withcoral/coral",
+      "description": "Local-first SQL runtime that exposes APIs, files, and custom data sources to agents through a unified query interface and MCP."
+    },
+    {
+      "name": "Dagster",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/dagster-io/dagster",
+      "repo": "dagster-io/dagster",
+      "description": "Data orchestration platform for development, production, and observation of data assets."
+    },
+    {
+      "name": "dlt (data load tool)",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/dlt-hub/dlt",
+      "repo": "dlt-hub/dlt",
+      "description": "Dlt is a lightweight Python-native data loading library gaining traction as the dbt for ingestion in AI pipelines."
+    },
+    {
+      "name": "Feast",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/feast-dev/feast",
+      "repo": "feast-dev/feast",
+      "description": "Feast is the leading open-source feature store for ML/AI."
+    },
+    {
+      "name": "FiftyOne",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/voxel51/fiftyone",
+      "repo": "voxel51/fiftyone",
+      "description": "FiftyOne is an ML dataset curation and model evaluation tool that stores rich sample metadata, embeddings, and evaluation results."
+    },
+    {
+      "name": "Firecrawl",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "repo": "firecrawl/firecrawl",
+      "description": "Firecrawl has grown to become one of the primary web data ingestion tools for AI pipelines, with a clean REST API and SDK that converts any website to clean, LLM-ready markdown."
+    },
+    {
+      "name": "Flyte",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/flyteorg/flyte",
+      "repo": "flyteorg/flyte",
+      "description": "Mature production-grade ML/AI workflow orchestration platform."
+    },
+    {
+      "name": "Leon",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/leon-ai/leon",
+      "repo": "leon-ai/leon",
+      "description": "Leon is an open-source personal AI assistant built around tools, context, memory, and agentic execution."
+    },
+    {
+      "name": "MegaParse",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/QuivrHQ/MegaParse",
+      "repo": "QuivrHQ/MegaParse",
+      "description": "MegaParse is a file parser optimised for LLM ingestion - it converts PDFs, DOCX, PPTX, and other document formats into clean, structured text with minimal information loss."
+    },
+    {
+      "name": "MindsDB",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/mindsdb/minds",
+      "repo": "mindsdb/minds",
+      "description": "MindsDB is a high-visibility AI query engine that federates ML and AI reasoning across live data sources."
+    },
+    {
+      "name": "OmniParse",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/adithya-s-k/omniparse",
+      "repo": "adithya-s-k/omniparse",
+      "description": "OmniParse is a multimodal data ingestion and parsing platform that converts documents, images, audio, video, and web pages into structured, LLM-ready formats."
+    },
+    {
+      "name": "Pandas AI",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/sinaptik-ai/pandas-ai",
+      "repo": "sinaptik-ai/pandas-ai",
+      "description": "Pandas AI enables conversational data analysis over SQL, CSV, and parquet sources via LLMs and RAG."
+    },
+    {
+      "name": "Pathway",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/pathwaycom/pathway",
+      "repo": "pathwaycom/pathway",
+      "description": "Pathway supports data ingestion, pipelines, or MLOps workflows adjacent to agent systems."
+    },
+    {
+      "name": "Prefect",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "repo": "PrefectHQ/prefect",
+      "description": "Workflow orchestration framework for resilient data pipelines."
+    },
+    {
+      "name": "R2R",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/SciPhi-AI/R2R",
+      "repo": "SciPhi-AI/R2R",
+      "description": "Production-ready RAG harness with multimodal ingestion, hybrid search, and knowledge graph support."
+    },
+    {
+      "name": "Unstructured",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/Unstructured-IO/unstructured",
+      "repo": "Unstructured-IO/unstructured",
+      "description": "Unstructured is a widely-used document parsing and preprocessing library that feeds chunked, enriched content into RAG pipelines."
+    },
+    {
+      "name": "Zerox",
+      "category": "Data / ingestion / MLOps substrate",
+      "url": "https://github.com/getomni-ai/zerox",
+      "repo": "getomni-ai/zerox",
+      "description": "Zerox supports data ingestion, pipelines, or MLOps workflows adjacent to agent systems."
+    },
+    {
+      "name": "Agenta",
+      "category": "Observability / evals",
+      "url": "https://github.com/Agenta-AI/agenta",
+      "repo": "Agenta-AI/agenta",
+      "description": "Open-source LLMOps platform covering prompt playground, prompt management, LLM evaluation, and LLM observability."
+    },
+    {
+      "name": "AgentOps",
+      "category": "Observability / evals",
+      "url": "https://github.com/AgentOps-AI/agentops",
+      "repo": "AgentOps-AI/agentops",
+      "description": "Framework-agnostic observability and DevTool platform for AI agents."
+    },
+    {
+      "name": "Arize Phoenix",
+      "category": "Observability / evals",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "repo": "Arize-ai/phoenix",
+      "description": "Arize Phoenix - AI Observability & Evaluation."
+    },
+    {
+      "name": "AxonHub",
+      "category": "Observability / evals",
+      "url": "https://github.com/looplj/axonhub",
+      "repo": "looplj/axonhub",
+      "description": "AxonHub is an open-source AI gateway (Go) that routes any SDK (OpenAI, Anthropic, etc.) to 100+ LLMs transparently."
+    },
+    {
+      "name": "fast-agent",
+      "category": "Observability / evals",
+      "url": "https://github.com/evalstate/fast-agent",
+      "repo": "evalstate/fast-agent",
+      "description": "Python agent framework emphasizing strong MCP (Model Context Protocol) and ACP (Agent Communication Protocol) support."
+    },
+    {
+      "name": "Guardrails",
+      "category": "Observability / evals",
+      "url": "https://github.com/guardrails-ai/guardrails",
+      "repo": "guardrails-ai/guardrails",
+      "description": "Guardrails provides tracing, evaluation, monitoring, or operational insight for agent systems."
+    },
+    {
+      "name": "Helicone",
+      "category": "Observability / evals",
+      "url": "https://github.com/Helicone/helicone",
+      "repo": "Helicone/helicone",
+      "description": "Positioned alongside Langfuse, Opik, and Traceloop/OpenLLMetry as an observability/LLMOps backend."
+    },
+    {
+      "name": "HolmesGPT",
+      "category": "Observability / evals",
+      "url": "https://github.com/HolmesGPT/holmesgpt",
+      "repo": "HolmesGPT/holmesgpt",
+      "description": "HolmesGPT automatically investigates alerts by querying observability data (Prometheus, Grafana, Datadog, etc.) and generates root cause analysis."
+    },
+    {
+      "name": "HumanLayer",
+      "category": "Observability / evals",
+      "url": "https://github.com/humanlayer/humanlayer",
+      "repo": "humanlayer/humanlayer",
+      "description": "SDK for human-in-the-loop AI agent workflows."
+    },
+    {
+      "name": "k8sGPT",
+      "category": "Observability / evals",
+      "url": "https://github.com/k8sgpt-ai/k8sgpt",
+      "repo": "k8sgpt-ai/k8sgpt",
+      "description": "CNCF Sandbox project. k8sGPT scans Kubernetes clusters, surfaces problems in plain English, and uses LLMs to suggest fixes."
+    },
+    {
+      "name": "Langfuse",
+      "category": "Observability / evals",
+      "url": "https://github.com/langfuse/langfuse",
+      "repo": "langfuse/langfuse",
+      "description": "Open source LLM engineering platform providing observability, metrics, evals, prompt management, playground, and datasets."
+    },
+    {
+      "name": "LangSmith",
+      "category": "Observability / evals",
+      "url": "https://github.com/langchain-ai/langsmith-sdk",
+      "repo": "langchain-ai/langsmith-sdk",
+      "description": "LangSmith provides tracing, evaluation, monitoring, or operational insight for agent systems."
+    },
+    {
+      "name": "Langtrace",
+      "category": "Observability / evals",
+      "url": "https://github.com/Scale3-Labs/langtrace",
+      "repo": "Scale3-Labs/langtrace",
+      "description": "Langtrace is an open-source, OpenTelemetry-based end-to-end observability tool for LLM applications."
+    },
+    {
+      "name": "LangWatch",
+      "category": "Observability / evals",
+      "url": "https://github.com/langwatch/langwatch",
+      "repo": "langwatch/langwatch",
+      "description": "LLM monitoring and analytics platform with tracing, evaluation, and optimization features."
+    },
+    {
+      "name": "Monocle",
+      "category": "Observability / evals",
+      "url": "https://github.com/monocle2ai/monocle",
+      "repo": "monocle2ai/monocle",
+      "description": "Monocle is an open-source (Apache 2.0) library for tracing and testing GenAI apps and agents, governed as a Linux Foundation AI & Data project (LF sandbox)."
+    },
+    {
+      "name": "OpenLLMetry",
+      "category": "Observability / evals",
+      "url": "https://github.com/traceloop/openllmetry",
+      "repo": "traceloop/openllmetry",
+      "description": "OpenLLMetry provides OpenTelemetry-compatible instrumentation for LLM applications."
+    },
+    {
+      "name": "Opik",
+      "category": "Observability / evals",
+      "url": "https://github.com/comet-ml/opik",
+      "repo": "comet-ml/opik",
+      "description": "Open-source LLM observability and evaluation platform by Comet ML."
+    },
+    {
+      "name": "Oumi",
+      "category": "Observability / evals",
+      "url": "https://github.com/oumi-ai/oumi",
+      "repo": "oumi-ai/oumi",
+      "description": "End-to-end platform for building, training, fine-tuning, and deploying AI models."
+    },
+    {
+      "name": "Promptfoo",
+      "category": "Observability / evals",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "repo": "promptfoo/promptfoo",
+      "description": "LLM testing and evaluation framework for red-teaming, regression testing, and prompt comparison."
+    },
+    {
+      "name": "RagaAI Catalyst",
+      "category": "Observability / evals",
+      "url": "https://github.com/raga-ai-hub/ragaai-catalyst",
+      "repo": "raga-ai-hub/ragaai-catalyst",
+      "description": "Open-source LLM evaluation and observability platform."
+    },
+    {
+      "name": "Superagent",
+      "category": "Observability / evals",
+      "url": "https://github.com/superagent-ai/superagent",
+      "repo": "superagent-ai/superagent",
+      "description": "Superagent - open-source SDK for AI agent safety."
+    },
+    {
+      "name": "TruLens",
+      "category": "Observability / evals",
+      "url": "https://github.com/truera/trulens",
+      "repo": "truera/trulens",
+      "description": "TruLens provides tracing, evaluation, monitoring, or operational insight for agent systems."
+    },
+    {
+      "name": "Bifrost",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/maximhq/bifrost",
+      "repo": "maximhq/bifrost",
+      "description": "Enterprise AI gateway written in Go."
+    },
+    {
+      "name": "exo",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/exo-explore/exo",
+      "repo": "exo-explore/exo",
+      "description": "exo provides model serving, routing, gateway, or inference infrastructure."
+    },
+    {
+      "name": "GPT4All",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/nomic-ai/gpt4all",
+      "repo": "nomic-ai/gpt4all",
+      "description": "Open-source local LLM ecosystem by Nomic AI."
+    },
+    {
+      "name": "GPTCache",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/zilliztech/GPTCache",
+      "repo": "zilliztech/GPTCache",
+      "description": "Semantic cache for LLMs by Zilliz (creators of Milvus)."
+    },
+    {
+      "name": "Jan",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/janhq/jan",
+      "repo": "janhq/jan",
+      "description": "Jan provides model serving, routing, gateway, or inference infrastructure."
+    },
+    {
+      "name": "LiteLLM",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/BerriAI/litellm",
+      "repo": "BerriAI/litellm",
+      "description": "Universal LLM API gateway/proxy supporting 100+ providers."
+    },
+    {
+      "name": "LLMStack",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/trypromptly/LLMStack",
+      "repo": "trypromptly/LLMStack",
+      "description": "LLMStack provides a self-hosted platform for building AI assistants, agents, and automations without code."
+    },
+    {
+      "name": "LLMWare",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/llmware-ai/llmware",
+      "repo": "llmware-ai/llmware",
+      "description": "Enterprise RAG framework with purpose-built small language models (SLMs), document parsing, integrated vector stores, and multi-step agent pipelines."
+    },
+    {
+      "name": "LocalAI",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/mudler/LocalAI",
+      "repo": "mudler/LocalAI",
+      "description": "LocalAI provides model serving, routing, gateway, or inference infrastructure."
+    },
+    {
+      "name": "Manifest",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/mnfst/manifest",
+      "repo": "mnfst/manifest",
+      "description": "Sits at the control/routing layer, selecting between LLM providers based on cost/latency/quality policy."
+    },
+    {
+      "name": "MCP Rust SDK",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "repo": "modelcontextprotocol/rust-sdk",
+      "description": "MCP Rust SDK - the official Rust SDK for the Model Context Protocol, maintained in the modelcontextprotocol org alongside the TypeScript, Python, and other language SDKs."
+    },
+    {
+      "name": "New API",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/QuantumNous/new-api",
+      "repo": "QuantumNous/new-api",
+      "description": "Unified LLM API hub supporting cross-conversion between OpenAI, Claude, Gemini, and other LLM API formats with token management, routing, and load balancing."
+    },
+    {
+      "name": "Nexa SDK",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/qualcomm/GenieX",
+      "repo": "qualcomm/GenieX",
+      "description": "Includes a built-in vector store for on-device RAG."
+    },
+    {
+      "name": "Nexent",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/ModelEngine-Group/nexent",
+      "repo": "ModelEngine-Group/nexent",
+      "description": "Nexent provides model serving, routing, gateway, or inference infrastructure."
+    },
+    {
+      "name": "Ollama",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/ollama/ollama",
+      "repo": "ollama/ollama",
+      "description": "Ollama exposes an OpenAI-compatible REST API and supports 100+ models."
+    },
+    {
+      "name": "OpenLLM",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/bentoml/OpenLLM",
+      "repo": "bentoml/OpenLLM",
+      "description": "Open-source LLM serving framework by BentoML."
+    },
+    {
+      "name": "Portkey AI Gateway",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/Portkey-AI/gateway",
+      "repo": "Portkey-AI/gateway",
+      "description": "Open-source AI gateway supporting 250+ LLMs with caching, routing, and observability."
+    },
+    {
+      "name": "RubyLLM",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/crmne/ruby_llm",
+      "repo": "crmne/ruby_llm",
+      "description": "Ruby LLM provider abstraction layer - one unified API for OpenAI, Anthropic, Gemini, Bedrock, DeepSeek, Mistral, Ollama, and 10+ other providers."
+    },
+    {
+      "name": "rust-genai",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/jeremychone/rust-genai",
+      "repo": "jeremychone/rust-genai",
+      "description": "Rust-genai is a Rust multi-provider generative AI client (Ollama, OpenAI, Anthropic, Gemini, DeepSeek, xAI/Grok, Groq, Cohere, ...) authored by Jeremy Chone."
+    },
+    {
+      "name": "Semantic Router",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/aurelio-labs/semantic-router",
+      "repo": "aurelio-labs/semantic-router",
+      "description": "Semantic Router performs fast semantic intent classification using vector similarity over a route index and supports pluggable index backends."
+    },
+    {
+      "name": "SGLang",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/sgl-project/sglang",
+      "repo": "sgl-project/sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models - similar surface to vLLM (inference serving / structured output)."
+    },
+    {
+      "name": "vLLM",
+      "category": "Model serving / gateway",
+      "url": "https://github.com/vllm-project/vllm",
+      "repo": "vllm-project/vllm",
+      "description": "High-throughput and memory-efficient LLM inference engine from UC Berkeley."
+    },
+    {
+      "name": "Deep Lake",
+      "category": "Database / infrastructure product",
+      "url": "https://github.com/activeloopai/deeplake",
+      "repo": "activeloopai/deeplake",
+      "description": "Deep Lake is Activeloop's AI data runtime - a serverless multimodal data lake / vector database / memory store for AI agents."
+    },
+    {
+      "name": "HydraDB",
+      "category": "Database / infrastructure product",
+      "url": "https://github.com/usecortex/hydradb-mcp",
+      "repo": "usecortex/hydradb-mcp",
+      "description": "HydraDB provides data or infrastructure primitives for agent systems."
+    },
+    {
+      "name": "Agent Client Protocol (ACP)",
+      "category": "Protocol / standard only",
+      "url": "https://github.com/agentclientprotocol/agent-client-protocol",
+      "repo": "agentclientprotocol/agent-client-protocol",
+      "description": "Sits alongside MCP in the emerging protocol layer of the agentic stack - MCP connects agents to tools; ACP connects editor UIs to agents."
+    },
+    {
+      "name": "Model Context Protocol (MCP)",
+      "category": "Protocol / standard only",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "repo": "modelcontextprotocol/modelcontextprotocol",
+      "description": "Open protocol specification for connecting LLM applications to external tools, data sources, and context providers."
+    }
+  ],
+  "related_lists": [
+    {
+      "name": "Awesome AI Infrastructure",
+      "url": "https://github.com/brandonhimpfen/awesome-ai-infrastructure",
+      "description": "Curated resources for AI infrastructure, platforms, and operational tooling."
+    },
+    {
+      "name": "Awesome Lists",
+      "url": "https://github.com/brandonhimpfen/awesome-lists",
+      "description": "A collection of curated awesome lists."
+    }
+  ]
+}

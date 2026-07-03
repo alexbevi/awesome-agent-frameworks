@@ -496,6 +496,7 @@ Databases, vector or graph stores, memory substrates, deployment platforms, and 
 Specifications and standards that define how agent systems communicate or interoperate, without being full product implementations themselves.
 
 - [Agent Client Protocol (ACP)](https://github.com/agentclientprotocol/agent-client-protocol) ![GitHub Repo stars](https://img.shields.io/github/stars/agentclientprotocol/agent-client-protocol?style=social) - Sits alongside MCP in the emerging protocol layer of the agentic stack - MCP connects agents to tools; ACP connects editor UIs to agents.
+- [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/modelcontextprotocol) ![GitHub Repo stars](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol?style=social) - Open protocol specification for connecting LLM applications to external tools, data sources, and context providers.
 
 ## Related Awesome Lists
 

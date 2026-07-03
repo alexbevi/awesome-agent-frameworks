@@ -23,16 +23,20 @@ Submissions may be declined when they are general AI resources, generic DevOps t
 
 ## Entry Format
 
-Every entry must use this format:
+Entries are stored in [`data/frameworks.json`](data/frameworks.json). Add or edit
+the JSON object for the project, including its `name`, `category`, GitHub `url`,
+`repo`, and short neutral `description`.
+
+The generated README entry must use this format:
 
 ```markdown
-- [Name](https://project.example) ![GitHub Repo stars](https://img.shields.io/github/stars/owner/repo?style=social) - Short neutral description.
+- [Name](https://github.com/owner/repo) ![GitHub Repo stars](https://img.shields.io/github/stars/owner/repo?style=social) - Short neutral description.
 ```
 
 Requirements:
 
 - Use the canonical project name.
-- Link the name to the canonical project site when one exists; otherwise link to the GitHub repository.
+- Link the name to the canonical GitHub repository.
 - Include a valid GitHub repository stars badge from `shields.io`.
 - Keep the description short, factual, and neutral.
 - Start descriptions with a capital letter and end them with a period.
@@ -45,6 +49,10 @@ Requirements:
 - Keep entries alphabetically sorted within each category by project name.
 - Do not add duplicate projects under multiple names.
 - Do not add alternate links for the same project as separate entries.
+- Run `python3 scripts/generate-readme.py` after editing `data/frameworks.json`.
+- Run `python3 scripts/generate-readme.py --check` to verify the README is current.
+- Include both `data/frameworks.json` and the regenerated `README.md` in the pull request.
+- Do not edit generated README entries directly without updating `data/frameworks.json`.
 
 ## Pull Request Checklist
 
@@ -57,5 +65,8 @@ Before opening a pull request, confirm:
 - [ ] The entry is in the right category.
 - [ ] The category remains alphabetically sorted.
 - [ ] The project is not already listed.
+- [ ] `data/frameworks.json` was updated.
+- [ ] `python3 scripts/generate-readme.py` was run and the regenerated `README.md` is included.
+- [ ] `python3 scripts/generate-readme.py --check` passes.
 
 Final decisions on inclusion, category placement, and wording rest with the maintainers.
