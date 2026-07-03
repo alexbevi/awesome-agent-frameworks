@@ -1,6 +1,6 @@
 # Awesome Agent Frameworks
 
-A curated list of open source frameworks and tools for building agents, running agent systems, connecting tools, managing memory and retrieval, and observing or evaluating agent behavior.
+A curated list of mostly open source frameworks and tools for building agents, running agent systems, connecting tools, managing memory and retrieval, and observing or evaluating agent behavior.
 
 ## Contents
 
