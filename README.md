@@ -507,6 +507,8 @@ Specifications and standards that define how agent systems communicate or intero
 
 Contributions are welcome. Please follow [`CONTRIBUTING.md`](CONTRIBUTING.md), including the required entry format, stars badge, category placement, and alphabetical sorting.
 
+If something apperas to be mis-classified, feel free to open an issue or PR to get it fixed.
+
 ## License
 
 [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE).
