@@ -25,7 +25,7 @@ This list is generated from a private research inventory and organized by catego
 <a id="agent-sdk-framework"></a>
 ## Agent SDK / framework
 
-Code-first APIs for agents, tools, prompts, models, and state; includes broad SDKs where RAG is one feature among several.
+Code-first libraries and frameworks for defining agents, tools, prompts, model calls, and shared state in custom agent applications.
 
 - [AG2](https://github.com/ag2ai/ag2) ![GitHub Repo stars](https://img.shields.io/github/stars/ag2ai/ag2?style=social) - Community continuation of Microsoft's AutoGen multi-agent framework.
 - [Agency Swarm](https://github.com/VRSEN/agency-swarm) ![GitHub Repo stars](https://img.shields.io/github/stars/VRSEN/agency-swarm?style=social) - Open-source framework for building structured, reliable AI agent networks where each agent has clearly defined roles and communication channels.
@@ -125,7 +125,7 @@ Code-first APIs for agents, tools, prompts, models, and state; includes broad SD
 <a id="agent-graph-runtime"></a>
 ## Agent graph / runtime
 
-Runtime for graph execution, checkpoints, resumability, HITL, or durable agent state.
+Execution engines for graph-based or durable agent workflows, including checkpointing, resumability, human-in-the-loop steps, and long-running state management.
 
 - [AgentFS](https://github.com/tursodatabase/agentfs) ![GitHub Repo stars](https://img.shields.io/github/stars/tursodatabase/agentfs?style=social) - SDKs ship for TypeScript, Python, and Rust; a CLI mounts AgentFS via FUSE (Linux) or NFS (macOS).
 - [Agno](https://github.com/agno-agi/agno) ![GitHub Repo stars](https://img.shields.io/github/stars/agno-agi/agno?style=social) - Agno is a runtime or orchestration layer for agent applications.
@@ -186,7 +186,7 @@ Runtime for graph execution, checkpoints, resumability, HITL, or durable agent s
 <a id="rag-knowledge-system"></a>
 ## RAG / knowledge system
 
-Product or framework centered on ingestion, indexing, retrieval, and search; do not use for broad agent/application SDKs merely because they expose vector stores, retrievers, or document loaders.
+Retrieval-centered systems for ingesting documents, building indexes, searching knowledge sources, and grounding agent responses.
 
 - [Cognee](https://github.com/topoteretes/cognee) ![GitHub Repo stars](https://img.shields.io/github/stars/topoteretes/cognee?style=social) - Knowledge engine for AI agent memory using knowledge graphs -, active weekly development (trending Apr 2026).
 - [Cognita](https://github.com/truefoundry/cognita) ![GitHub Repo stars](https://img.shields.io/github/stars/truefoundry/cognita?style=social) - Open-source modular RAG framework with a web UI.
@@ -214,7 +214,7 @@ Product or framework centered on ingestion, indexing, retrieval, and search; do 
 <a id="memory-context-system"></a>
 ## Memory / context system
 
-Long-term memory, profile state, context graph, or recall layer.
+Memory and context layers that persist user state, conversation history, profiles, or knowledge graphs across agent steps and sessions.
 
 - [A-MEM](https://github.com/agiresearch/A-mem) ![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/A-mem?style=social) - Two related repos exist: agiresearch/A-mem and WujiangXu/AgenticMemory.
 - [Agentic Context Engine](https://github.com/kayba-ai/agentic-context-engine) ![GitHub Repo stars](https://img.shields.io/github/stars/kayba-ai/agentic-context-engine?style=social) - Company-led (Kayba) with a hosted commercial offering adjacent to the OSS core.
@@ -279,7 +279,7 @@ Long-term memory, profile state, context graph, or recall layer.
 <a id="low-code-builder-agent-app"></a>
 ## Low-code builder / agent app
 
-Visual builder, packaged chat/RAG app, or batteries-included application surface.
+Visual builders and packaged applications for assembling agents, chat or RAG workflows, automations, and assistants with less custom code.
 
 - [Activepieces](https://github.com/activepieces/activepieces) ![GitHub Repo stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social) - AI-native with MCP toolkit support, 280+ pre-built integrations, a no-code visual builder, and a TypeScript extension framework for custom pieces.
 - [AgentGPT](https://github.com/reworkd/AgentGPT) ![GitHub Repo stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=social) - Web-based autonomous AI agent platform.
@@ -322,7 +322,7 @@ Visual builder, packaged chat/RAG app, or batteries-included application surface
 <a id="tool-protocol-connector-layer"></a>
 ## Tool / protocol / connector layer
 
-MCP, A2A, tool registry, auth broker, connector catalog, or action metadata layer.
+Protocols, tool registries, connector catalogs, and auth brokers that let agents discover, call, and coordinate external systems.
 
 - [A2A (Agent2Agent Protocol)](https://github.com/a2aproject/A2A) ![GitHub Repo stars](https://img.shields.io/github/stars/a2aproject/A2A?style=social) - Agent-to-Agent (A2A) is an open protocol for inter-agent communication and interoperability.
 - [AG-UI Protocol](https://github.com/ag-ui-protocol/ag-ui) ![GitHub Repo stars](https://img.shields.io/github/stars/ag-ui-protocol/ag-ui?style=social) - Open protocol and SDK for connecting AI agents to frontend applications.
@@ -353,7 +353,7 @@ MCP, A2A, tool registry, auth broker, connector catalog, or action metadata laye
 <a id="developer-computer-use-agent"></a>
 ## Developer / computer-use agent
 
-Coding agent, browser/computer operator, IDE agent, CLI agent, or desktop task agent.
+Agents and support tools built for software development, browser automation, desktop control, terminal workflows, and other computer-use tasks.
 
 - [Accomplish](https://github.com/accomplish-ai/coworker) ![GitHub Repo stars](https://img.shields.io/github/stars/accomplish-ai/coworker?style=social) - AccomplishTM is an open-source AI coworker that lives on the desktop.
 - [Agent S](https://github.com/simular-ai/Agent-S) ![GitHub Repo stars](https://img.shields.io/github/stars/simular-ai/Agent-S?style=social) - Open GUI automation agent framework from Simular AI.
@@ -401,7 +401,7 @@ Coding agent, browser/computer operator, IDE agent, CLI agent, or desktop task a
 <a id="data-ingestion-mlops-substrate"></a>
 ## Data / ingestion / MLOps substrate
 
-ETL, workflow, feature, ML, or data pipeline substrate adjacent to AI apps.
+Data and ML infrastructure for collecting, parsing, transforming, labeling, evaluating, or orchestrating the pipelines that feed agent systems.
 
 - [Adala](https://github.com/HumanSignal/Adala) ![GitHub Repo stars](https://img.shields.io/github/stars/HumanSignal/Adala?style=social) - Adala (Autonomous DAta Labeling Agent) is a framework for building autonomous data labeling and processing pipelines using LLMs as agents.
 - [Agentset](https://github.com/agentset-ai/agentset) ![GitHub Repo stars](https://img.shields.io/github/stars/agentset-ai/agentset?style=social) - Agentset is an open-source RAG platform with built-in citations, deep research, 22+ file formats, partitions, and an MCP server.
@@ -431,7 +431,7 @@ ETL, workflow, feature, ML, or data pipeline substrate adjacent to AI apps.
 <a id="observability-evals"></a>
 ## Observability / evals
 
-Tracing, evaluation, monitoring, audit, or runtime-ops tool.
+Tracing, evaluation, monitoring, audit, and incident-analysis tools for understanding agent behavior, quality, cost, safety, and production reliability.
 
 - [Agenta](https://github.com/Agenta-AI/agenta) ![GitHub Repo stars](https://img.shields.io/github/stars/Agenta-AI/agenta?style=social) - Open-source LLMOps platform covering prompt playground, prompt management, LLM evaluation, and LLM observability.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) ![GitHub Repo stars](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social) - Framework-agnostic observability and DevTool platform for AI agents.
@@ -459,7 +459,7 @@ Tracing, evaluation, monitoring, audit, or runtime-ops tool.
 <a id="model-serving-gateway"></a>
 ## Model serving / gateway
 
-Inference runtime, model gateway, model router, local model shell, or LLM API proxy.
+Inference servers, local model shells, provider gateways, routers, and API proxies that expose models behind a consistent serving layer.
 
 - [Bifrost](https://github.com/maximhq/bifrost) ![GitHub Repo stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social) - Enterprise AI gateway written in Go.
 - [exo](https://github.com/exo-explore/exo) ![GitHub Repo stars](https://img.shields.io/github/stars/exo-explore/exo?style=social) - exo provides model serving, routing, gateway, or inference infrastructure.
@@ -487,16 +487,15 @@ Inference runtime, model gateway, model router, local model shell, or LLM API pr
 <a id="database-infrastructure-product"></a>
 ## Database / infrastructure product
 
-Data substrate, vector/graph/memory DB, deployment platform, or infrastructure product.
+Databases, vector or graph stores, memory substrates, deployment platforms, and other infrastructure that agent systems rely on at runtime.
 
 - [Deep Lake](https://github.com/activeloopai/deeplake) ![GitHub Repo stars](https://img.shields.io/github/stars/activeloopai/deeplake?style=social) - Deep Lake is Activeloop's AI data runtime - a serverless multimodal data lake / vector database / memory store for AI agents.
 - [HydraDB](https://github.com/usecortex/hydradb-mcp) ![GitHub Repo stars](https://img.shields.io/github/stars/usecortex/hydradb-mcp?style=social) - HydraDB provides data or infrastructure primitives for agent systems.
-- [Vercel](https://github.com/vercel/vercel) ![GitHub Repo stars](https://img.shields.io/github/stars/vercel/vercel?style=social) - Vercel is a frontend cloud platform for deploying and scaling web applications.
 
 <a id="protocol-standard-only"></a>
 ## Protocol / standard only
 
-Specification with no direct implementation-owned storage surface.
+Specifications and standards that define how agent systems communicate or interoperate, without being full product implementations themselves.
 
 - [Agent Client Protocol (ACP)](https://github.com/agentclientprotocol/agent-client-protocol) ![GitHub Repo stars](https://img.shields.io/github/stars/agentclientprotocol/agent-client-protocol?style=social) - Sits alongside MCP in the emerging protocol layer of the agentic stack - MCP connects agents to tools; ACP connects editor UIs to agents.
 
@@ -512,7 +511,3 @@ Contributions are welcome. Please follow [`CONTRIBUTING.md`](CONTRIBUTING.md), i
 ## License
 
 [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE).
-
-## Maintenance
-
-Generated from 423 private research records; 406 GitHub-backed entries are currently listed.
