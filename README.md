@@ -2,8 +2,6 @@
 
 A curated list of open source frameworks and tools for building agents, running agent systems, connecting tools, managing memory and retrieval, and observing or evaluating agent behavior.
 
-This list is generated from a private research inventory and organized by category.
-
 ## Contents
 
 - [Agent SDK / framework](#agent-sdk-framework)
