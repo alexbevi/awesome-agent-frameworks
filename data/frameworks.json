@@ -346,7 +346,7 @@
     },
     {
       "name": "Hermes Agent",
-      "category": "Agent SDK / framework",
+      "category": "Low-code builder / agent app",
       "url": "https://github.com/NousResearch/hermes-agent",
       "repo": "NousResearch/hermes-agent",
       "description": "Opinionated self-improving agent kit from Nous Research with 40+ built-in tools, multi-platform execution backends, and learning loop."
@@ -1529,10 +1529,10 @@
     },
     {
       "name": "OpenClaw",
-      "category": "Memory / context system",
+      "category": "Low-code builder / agent app",
       "url": "https://github.com/openclaw/openclaw",
       "repo": "openclaw/openclaw",
-      "description": "Openclaw/openclaw is a consumer-grade AI personal assistant app that connects to messaging platforms (WhatsApp, Telegram, Slack, iMessage) via a local Gateway."
+      "description": "OpenClaw is a self-hosted personal AI assistant that connects to messaging platforms and local devices through a gateway."
     },
     {
       "name": "Osaurus",
