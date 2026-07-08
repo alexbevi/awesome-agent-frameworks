@@ -279,6 +279,7 @@ Memory and context layers that persist user state, conversation history, profile
 - [TaskWeaver](https://github.com/microsoft/TaskWeaver) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/TaskWeaver?style=social) - Microsoft Research code-first agent framework that plans data analytics tasks as code and executes plugins while preserving code and chat history.
 - [TEN Framework](https://github.com/TEN-framework/ten-framework) ![GitHub Repo stars](https://img.shields.io/github/stars/TEN-framework/ten-framework?style=social) - TEN (The Extension Network) provides a real-time, low-latency multimodal agent runtime for voice, video, and text interactions.
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) ![GitHub Repo stars](https://img.shields.io/github/stars/TencentCloud/TencentDB-Agent-Memory?style=social) - TencentDB Agent Memory provides memory or context management for agent applications.
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) ![GitHub Repo stars](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory?style=social) - Local-first Rust CLI/TUI for AI-agent memory lifecycle work with SQLite/FTS recall, evidence, audit, forgetting, and consolidation.
 - [uAgents](https://github.com/fetchai/uAgents) ![GitHub Repo stars](https://img.shields.io/github/stars/fetchai/uAgents?style=social) - Agents persist state using a local storage backend.
 
 <a id="low-code-builder-agent-app"></a>
