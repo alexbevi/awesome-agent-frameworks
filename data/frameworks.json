@@ -713,6 +713,13 @@
       "description": "Agent filesystem with TypeScript, Python, and Rust SDKs plus a CLI that mounts shared agent state through FUSE on Linux or NFS on macOS."
     },
     {
+      "name": "Agentlas OS Agent Operation Environment (AOE)",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/agentlas-ai/Agentlas-OS",
+      "repo": "agentlas-ai/Agentlas-OS",
+      "description": "Local-first environment for building, borrowing, and orchestrating specialist agents and teams across supported LLM hosts under host-local permissions and verification rules."
+    },
+    {
       "name": "AIOS",
       "category": "Agent graph / runtime",
       "url": "https://github.com/agiresearch/AIOS",
