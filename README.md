@@ -363,6 +363,7 @@ Protocols, tool registries, connector catalogs, and auth brokers that let agents
 Agents and support tools built for software development, browser automation, desktop control, terminal workflows, and other computer-use tasks.
 
 - [Accomplish](https://github.com/accomplish-ai/coworker) ![GitHub Repo stars](https://img.shields.io/github/stars/accomplish-ai/coworker?style=social) - AccomplishTM is an open-source AI coworker that lives on the desktop.
+- [Agent QA](https://github.com/vostride/agent-qa) ![GitHub Repo stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social) - TypeScript QA agent that runs natural-language web and mobile tests with persistent test memory, self-healing flows, structured evidence, and MCP access.
 - [Agent S](https://github.com/simular-ai/Agent-S) ![GitHub Repo stars](https://img.shields.io/github/stars/simular-ai/Agent-S?style=social) - Open GUI automation agent framework from Simular AI.
 - [Aider](https://github.com/Aider-AI/aider) ![GitHub Repo stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social) - AI pair programming tool for terminal-based code editing.
 - [Augment Code](https://github.com/AugmentCode/augment-swebench-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/AugmentCode/augment-swebench-agent?style=social) - The platform maintains long-term developer memory and preferences across sessions.
