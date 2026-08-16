@@ -2119,6 +2119,13 @@
       "description": "AccomplishTM is an open-source AI coworker that lives on the desktop."
     },
     {
+      "name": "Agent QA",
+      "category": "Developer / computer-use agent",
+      "url": "https://github.com/vostride/agent-qa",
+      "repo": "vostride/agent-qa",
+      "description": "TypeScript QA agent that runs natural-language web and mobile tests with persistent test memory, self-healing flows, structured evidence, and MCP access."
+    },
+    {
       "name": "Agent S",
       "category": "Developer / computer-use agent",
       "url": "https://github.com/simular-ai/Agent-S",
