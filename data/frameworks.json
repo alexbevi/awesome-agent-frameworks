@@ -993,6 +993,13 @@
       "description": "Graph and vector database memory layer that turns JSON into typed, searchable, relationship-aware records without schema migrations."
     },
     {
+      "name": "SandBase Harness",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/sandbaseai/sandbase-harness",
+      "repo": "sandbaseai/sandbase-harness",
+      "description": "Self-hosted agent runtime and MCP bridge with managed sessions, sandboxing, approvals, and audit replay."
+    },
+    {
       "name": "Skyvern",
       "category": "Agent graph / runtime",
       "url": "https://github.com/Skyvern-AI/skyvern",
