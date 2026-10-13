@@ -2901,6 +2901,13 @@
       "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
       "repo": "modelcontextprotocol/modelcontextprotocol",
       "description": "Open protocol specification for connecting LLM applications to external tools, data sources, and context providers."
+    },
+    {
+      "name": "Agent Barn",
+      "category": "Agent platform / control plane",
+      "url": "https://github.com/aai-labs/agent-barn",
+      "repo": "aai-labs/agent-barn",
+      "description": "Open-source (Apache-2.0) control plane for running AI agent teams with multi-channel chat front ends, full audit logging of conversations, tool calls and costs, and Helm deployment on your own Kubernetes cluster."
     }
   ],
   "related_lists": [
@@ -2915,4 +2922,4 @@
       "description": "A collection of curated resource lists."
     }
   ]
-}
+    }
