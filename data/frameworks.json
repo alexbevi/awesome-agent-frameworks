@@ -676,6 +676,13 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "repo": "TauricResearch/TradingAgents",
       "description": "Multi-agent LLM framework for financial trading built on LangGraph."
+    },  
+    {
+      "name": "TriCall Harness",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/jnukylinliu/tricall-harness",
+      "repo": "jnukylinliu/tricall-harness",
+      "description": "Python Agent Harness with LLM planning, Python execution control, domain-defined capabilities, and evidence evaluation."
     },
     {
       "name": "TypedAI",
