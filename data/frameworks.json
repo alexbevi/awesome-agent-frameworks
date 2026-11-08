@@ -447,6 +447,13 @@
       "description": "Chinese multi-agent framework with RAG pipeline support, easy tool integration, and model fine-tuning capabilities."
     },
     {
+      "name": "LightAgent",
+      "category": "Agent SDK / framework",
+      "url": "https://github.com/wanxingai/LightAgent",
+      "repo": "wanxingai/LightAgent",
+      "description": "Python agent framework with tools, memory, MCP integration, checkpointed workflows, and verified dynamic task graphs."
+    },
+    {
       "name": "llama-cpp-agent",
       "category": "Agent SDK / framework",
       "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
