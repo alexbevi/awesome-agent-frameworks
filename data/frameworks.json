@@ -902,6 +902,13 @@
       "description": "Durable execution runtime from the LangChain team; the primary way LangChain users build stateful, multi-step agents."
     },
     {
+      "name": "LazyMind",
+      "category": "Agent graph / runtime",
+      "url": "https://github.com/LazyAGI/LazyMind",
+      "repo": "LazyAGI/LazyMind",
+      "description": "AI Skill Runtime for observable, stateful workflows with review checkpoints, retry and rewind controls, and editable artifacts."
+    },
+    {
       "name": "Letta",
       "category": "Agent graph / runtime",
       "url": "https://github.com/letta-ai/letta",
