@@ -1902,6 +1902,13 @@
       "description": "OpenWork is an open-source alternative to Claude Cowork built for teams, powered by opencode."
     },
     {
+      "name": "Orkas",
+      "category": "Low-code builder / agent app",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "repo": "Orkas-AI/Orkas",
+      "description": "Open-source AI workspace that coordinates specialist agents for research, documents, content, and software development."
+    },
+    {
       "name": "RAGFlow",
       "category": "Low-code builder / agent app",
       "url": "https://github.com/infiniflow/ragflow",
