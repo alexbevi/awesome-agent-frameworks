@@ -2070,6 +2070,13 @@
       "description": "Python (mirage-ai) and TypeScript (@struktoai/mirage-) SDKs; FUSE-based mounts."
     },
     {
+      "name": "Open Agent API",
+      "category": "Tool / protocol / connector layer",
+      "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API",
+      "repo": "jiangxingfan1-coder/Open-Agent-API",
+      "description": "Self-hosted bridge that makes Agent Client Protocol (ACP) agents callable through OpenAI-compatible endpoints, with scoped keys and separate operator approvals."
+    },
+    {
       "name": "OpenSandbox",
       "category": "Tool / protocol / connector layer",
       "url": "https://github.com/opensandbox-group/OpenSandbox",
